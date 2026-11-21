@@ -1,0 +1,205 @@
+{
+ "updated": "2026-11-21T00:00+00:00",
+ "events": [
+  {
+   "d": "2026-11-21",
+   "h": "11:30",
+   "t": "Death Café: muerte y transformación",
+   "c": "Otros",
+   "v": "La Casa de Patraix",
+   "p": "Entrada libre",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "12:00",
+   "t": "Sex Museum + Los Bengala",
+   "c": "Música",
+   "v": "La Pèrgola de la Marina",
+   "p": "16,50 €",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "17:00",
+   "t": "Teatro sensorial con Enrique Vargas",
+   "c": "Teatro",
+   "v": "Centre Cultural Escorxador",
+   "p": "Gratis",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "18:00",
+   "t": "Goya – oder Der arge Weg der Erkenntnis",
+   "c": "Cine",
+   "v": "Edificio Rialto",
+   "p": "Gratis",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "20:00",
+   "t": "Christina Rosenvinge",
+   "c": "Música",
+   "v": "16 Toneladas",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "20:30",
+   "t": "Los girasoles ciegos",
+   "c": "Cine",
+   "v": "Edificio Rialto",
+   "p": "Gratis",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "21:00",
+   "t": "Pölvora",
+   "c": "Música",
+   "v": "Loco Club",
+   "p": "Desde 15 €",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "",
+   "t": "Odisea (también el 22)",
+   "c": "Teatro",
+   "v": "Teatro Rialto",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "",
+   "t": "Exposición «Altres» (hasta el 28)",
+   "c": "Arte",
+   "v": "Sala Municipal de Exposiciones",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "",
+   "t": "Life in Dailyland, de Joan Verdú",
+   "c": "Arte",
+   "v": "Centre del Carme",
+   "p": "Gratis",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "20:00",
+   "t": "Steve Wynn",
+   "c": "Música",
+   "v": "Loco Club",
+   "p": "Desde 25 €",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "20:30",
+   "t": "Alana Sinkëy",
+   "c": "Música",
+   "v": "Loco Club",
+   "p": "Desde 19,80 €",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "21:00",
+   "t": "Arenque",
+   "c": "Música",
+   "v": "Loco Club",
+   "p": "Desde 12,50 €",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "",
+   "t": "Tristesa i alegria en la vida de les girafes",
+   "c": "Teatro",
+   "v": "Teatro Rialto",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-27",
+   "h": "21:30",
+   "t": "The Rampers",
+   "c": "Música",
+   "v": "Loco Club",
+   "p": "Desde 12 €",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-27",
+   "h": "23:00",
+   "t": "Interfront + Último Destino + Fran Lenaers DJ",
+   "c": "Música",
+   "v": "16 Toneladas",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-28",
+   "h": "20:30",
+   "t": "Nadie Patín",
+   "c": "Música",
+   "v": "Loco Club",
+   "p": "Desde 12 €",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-28",
+   "h": "22:30",
+   "t": "The Chicken Whitfield Experience + The Meows + Xkulls",
+   "c": "Música",
+   "v": "16 Toneladas · No Fun Fest",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-28",
+   "h": "",
+   "t": "Al final de las cosas (también el 29)",
+   "c": "Teatro",
+   "v": "Teatro Rialto",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-29",
+   "h": "20:00",
+   "t": "Carlos Álvarez",
+   "c": "Música",
+   "v": "Loco Club",
+   "p": "Desde 12,50 €",
+   "u": "",
+   "s": "seed"
+  }
+ ]
+}
