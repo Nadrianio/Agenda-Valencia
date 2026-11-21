@@ -28,6 +28,11 @@ SOURCES = [
      "urls": ["https://www.laganzua.net/conciertos/salas-conciertos/sala-jerusalem",
               "https://www.laganzua.net/conciertos/valencia"]
              + ["https://www.laganzua.net/conciertos/valencia-pagina-%d" % n for n in range(2, 9)]},
+    # Cartelera de cines (SensaCine). La página estática solo trae las sesiones del día en que se lee.
+    {"id": "babel", "kind": "sensacine", "venue": "Cines Babel", "cat": "Cartelera",
+     "url": "https://www.sensacine.com/cines/cine/E0119/"},
+    {"id": "lys", "kind": "sensacine", "venue": "Cines Lys", "cat": "Cartelera",
+     "url": "https://www.sensacine.com/cines/cine/E0187/"},
     {"id": "rialto", "kind": "ldjson", "venue": "Teatro Rialto", "cat": "Teatro",
      "url": "https://ivc.gva.es/es/ivc/programacion-ivc/teatro-rialto-de-valencia"},
 ]
@@ -126,6 +131,44 @@ def parse_laganzua(raw, src):
         out.append(e)
     return out
 
+VERSIONS = {"espanola": "Español", "doblada": "Doblada", "v.o": "V.O.", "v.o.": "V.O.", "v.o.s.e.": "V.O.", "vose": "V.O."}
+
+def version_label(txt):
+    t = norm(txt).replace("en version ", "").replace("en ", "").strip()
+    return VERSIONS.get(t, txt.replace("En ", "").strip())
+
+def parse_sensacine(raw, src):
+    """Cartelera de un cine: una película = un evento por día, con sus sesiones en el campo x."""
+    L = lines_of(raw)
+    rel = re.compile(r"^\d{1,2} de [a-záéíóú]+ de \d{4} \|")
+    ses = re.compile(r"^(\d{1,2}) de ([a-záéíóú]+) de (\d{4}) - (.+)$", re.I)
+    tim = re.compile(r"^(\d{1,2}:\d{2})\b")
+    films, cur, key = [], None, None
+    for i, l in enumerate(L):
+        if rel.match(l) and i > 0:
+            cur = {"t": L[i - 1].strip(), "s": {}}; films.append(cur); key = None; continue
+        m = ses.match(l)
+        if m and cur is not None and m.group(2).lower() in MONTHS:
+            d = dt.date(int(m.group(3)), MONTHS[m.group(2).lower()], int(m.group(1))).isoformat()
+            key = (d, version_label(m.group(4)))
+            cur["s"].setdefault(key, [])
+            continue
+        t = tim.match(l)
+        if t and cur is not None and key and t.group(1).zfill(5) not in cur["s"][key]:
+            cur["s"][key].append(t.group(1).zfill(5))
+    out = []
+    for f in films:
+        by_day = {}
+        for (d, v), times in f["s"].items():
+            if times: by_day.setdefault(d, []).append((v, sorted(times)))
+        for d, groups in by_day.items():
+            allt = sorted(t for _, ts in groups for t in ts)
+            x = " · ".join("%s %s" % (v, " · ".join(ts)) for v, ts in sorted(groups))
+            e = ev(src, d, allt[0], f["t"])
+            e["x"] = x
+            out.append(e)
+    return out
+
 def walk(x):
     if isinstance(x, list):
         for i in x: yield from walk(i)
@@ -172,7 +215,7 @@ def parse_ldjson(raw, src):
             out.append(e)
     return out
 
-PARSERS = {"laganzua": parse_laganzua, "loco": parse_loco, "16t": parse_16t, "ldjson": parse_ldjson}
+PARSERS = {"sensacine": parse_sensacine, "laganzua": parse_laganzua, "loco": parse_loco, "16t": parse_16t, "ldjson": parse_ldjson}
 
 def main():
     try: prev = json.loads(OUT.read_text(encoding="utf-8")).get("events", [])
@@ -205,7 +248,7 @@ def main():
     except Exception: pass
     seen, final = set(), []
     for e in sorted(events, key=lambda e: (e["d"], e.get("h") or "~", e["t"])):
-        k = (e["d"], e["t"].lower())
+        k = (e["d"], e["t"].lower(), e.get("v", ""))
         if e["d"] >= TODAY.isoformat() and k not in seen:
             seen.add(k); final.append(e)
     if not final:
