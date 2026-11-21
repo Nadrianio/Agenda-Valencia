@@ -38,7 +38,10 @@ def fetch(url):
         return r.read().decode("utf-8", "replace")
 
 def lines_of(raw):
-    raw = re.sub(r"(?is)<(script|style).*?</\1>", " ", raw)
+    raw = re.sub(r"(?is)<(script|style|noscript).*?</\1>", " ", raw)
+    raw = re.sub(r"(?is)<!--.*?-->", " ", raw)
+    # Las etiquetas en línea (a, span, strong...) no deben partir una frase en dos líneas.
+    raw = re.sub(r"(?is)</?(?:a|span|b|strong|em|i|u|small|abbr|time|font|mark|sup|sub|label)(?:\s[^>]*)?>", " ", raw)
     raw = re.sub(r"<[^>]+>", "\n", raw)
     return [re.sub(r"\s+", " ", l).strip() for l in html.unescape(raw).split("\n") if l.strip()]
 
@@ -180,7 +183,14 @@ def main():
         for u in src.get("urls", [src["url"]]):
             try:
                 src["_url"] = u
-                found += PARSERS[src["kind"]](fetch(u), src)
+                raw = fetch(u)
+                got = PARSERS[src["kind"]](raw, src)
+                found += got
+                if not got:  # diagnóstico: qué ha visto el script en la página
+                    L = lines_of(raw)
+                    print("  [diagnóstico] %s: %d bytes, %d líneas de texto" % (u, len(raw), len(L)))
+                    for l in L[:12]:
+                        print("    | " + l[:110])
             except Exception as ex:
                 print("%-8s ERROR en %s: %s" % (src["id"], u, ex), file=sys.stderr)
             time.sleep(2)  # una petición cada pocos segundos, por cortesía
