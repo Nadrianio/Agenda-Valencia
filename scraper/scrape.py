@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Actualiza events.json leyendo las agendas de varias salas de València.
 Solo usa la biblioteca estándar de Python (sin instalar nada)."""
-import json, re, sys, html, datetime as dt, urllib.request
+import json, re, sys, time, html, unicodedata, datetime as dt, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -22,6 +22,12 @@ SOURCES = [
      "url": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia"},
     {"id": "16t", "kind": "16t", "venue": "16 Toneladas", "cat": "Música",
      "url": "https://www.16toneladas.com/"},
+    # La Ganzúa agrupa conciertos de muchas salas. Solo se guardan las salas de VENUES_GANZUA.
+    {"id": "ganzua", "kind": "laganzua", "venue": "", "cat": "Música",
+     "url": "https://www.laganzua.net/conciertos/valencia",
+     "urls": ["https://www.laganzua.net/conciertos/salas-conciertos/sala-jerusalem",
+              "https://www.laganzua.net/conciertos/valencia"]
+             + ["https://www.laganzua.net/conciertos/valencia-pagina-%d" % n for n in range(2, 9)]},
     {"id": "rialto", "kind": "ldjson", "venue": "Teatro Rialto", "cat": "Teatro",
      "url": "https://ivc.gva.es/es/ivc/programacion-ivc/teatro-rialto-de-valencia"},
 ]
@@ -44,7 +50,7 @@ def iso(month, day):
 
 def ev(src, d, h, t, p="", u=None):
     return {"d": d, "h": h or "", "t": t.strip(), "c": src["cat"], "v": src["venue"],
-            "p": p or "", "u": u or src["url"], "s": src["id"]}
+            "p": p or "", "u": u or src.get("_url") or src["url"], "s": src["id"]}
 
 def parse_loco(raw, src):
     out = []
@@ -71,6 +77,50 @@ def parse_16t(raw, src):
         if pat.match(title) or len(title) > 120:
             continue
         out.append(ev(src, iso(ABBR[m.group(1).upper()], int(m.group(2))), m.group(3).zfill(5), title.title() if title.isupper() else title))
+    return out
+
+
+def norm(x):
+    return unicodedata.normalize("NFD", x).encode("ascii", "ignore").decode().lower()
+
+# Salas que se guardan de La Ganzúa (basta con que el nombre contenga estas palabras).
+# Para añadir otra sala, añade su nombre aquí.
+VENUES_GANZUA = ["jerusalem", "hifi", "killing time", "hielo", "mat32", "moon", "rock city",
+                 "matisse", "radio city", "wah wah", "black note"]
+
+def parse_laganzua(raw, src):
+    out, L = [], lines_of(raw)
+    pat = re.compile(r"^Fecha\s+(?:[a-záéíóú]+\s+)?(\d{1,2}) de ([a-záéíóú]+) de (\d{4})", re.I)
+    for i, l in enumerate(L):
+        m = pat.match(l)
+        if not m or m.group(2).lower() not in MONTHS:
+            continue
+        try: d = dt.date(int(m.group(3)), MONTHS[m.group(2).lower()], int(m.group(1))).isoformat()
+        except ValueError: continue
+        j = i - 1
+        while j >= 0 and L[j].startswith("|"): j -= 1
+        if j < 0: continue
+        title = re.sub(r"\s+en\s+(Valencia|València)$", "", L[j]).strip()
+        venue, price = None, ""
+        for k in range(i + 1, min(i + 9, len(L))):
+            if pat.match(L[k]): break
+            if L[k].startswith("Ciudad") and venue is None:
+                rest = L[k][6:].strip()
+                nxt = L[k + 1] if k + 1 < len(L) else ""
+                cands = [c for c in (rest, nxt) if norm(c) not in ("valencia", "")]
+                if "valencia" in (norm(rest), norm(nxt)) and cands:
+                    venue = cands[0]
+            pm = re.match(r"^Precio:\s*([\d.,]+)", L[k])
+            if pm:
+                try:
+                    v = float(pm.group(1).replace(",", "."))
+                    price = "Gratis" if v == 0 else ("%d €" % v if v == int(v) else ("%.2f €" % v).replace(".", ","))
+                except ValueError: pass
+        if not venue or not any(w in norm(venue) for w in VENUES_GANZUA):
+            continue
+        e = ev(src, d, "", title, price)
+        e["v"] = venue
+        out.append(e)
     return out
 
 def walk(x):
@@ -119,21 +169,24 @@ def parse_ldjson(raw, src):
             out.append(e)
     return out
 
-PARSERS = {"loco": parse_loco, "16t": parse_16t, "ldjson": parse_ldjson}
+PARSERS = {"laganzua": parse_laganzua, "loco": parse_loco, "16t": parse_16t, "ldjson": parse_ldjson}
 
 def main():
     try: prev = json.loads(OUT.read_text(encoding="utf-8")).get("events", [])
     except Exception: prev = []
     events, failed = [], set()
     for src in SOURCES:
-        try:
-            found = PARSERS[src["kind"]](fetch(src["url"]), src)
-            print("%-8s %d eventos" % (src["id"], len(found)))
-            if not found: failed.add(src["id"])
-            events += found
-        except Exception as ex:
-            print("%-8s ERROR: %s" % (src["id"], ex), file=sys.stderr)
-            failed.add(src["id"])
+        found = []
+        for u in src.get("urls", [src["url"]]):
+            try:
+                src["_url"] = u
+                found += PARSERS[src["kind"]](fetch(u), src)
+            except Exception as ex:
+                print("%-8s ERROR en %s: %s" % (src["id"], u, ex), file=sys.stderr)
+            time.sleep(2)  # una petición cada pocos segundos, por cortesía
+        print("%-8s %d eventos" % (src["id"], len(found)))
+        if not found: failed.add(src["id"])
+        events += found
     # Si una sala falla, se conservan sus eventos anteriores (y los de ejemplo iniciales).
     events += [e for e in prev if e.get("s") in failed or e.get("s") == "seed"]
     try:
