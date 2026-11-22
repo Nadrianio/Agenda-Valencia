@@ -1,55 +1,85 @@
 {
- "updated": "2026-11-22T05:44+00:00",
+ "updated": "2026-11-21T00:00+00:00",
  "events": [
   {
-   "d": "2026-11-22",
-   "h": "18:00",
-   "t": "Próximos conciertos",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-11-23",
-   "h": "20:00",
-   "t": "Sold out",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-11-23",
-   "h": "",
-   "t": "Exposición «Altres» (hasta el 28)",
-   "c": "Arte",
-   "v": "Sala Municipal de Exposiciones",
-   "p": "Consultar",
+   "d": "2026-11-21",
+   "h": "11:30",
+   "t": "Death Café: muerte y transformación",
+   "c": "Otros",
+   "v": "La Casa de Patraix",
+   "p": "Entrada libre",
    "u": "",
    "s": "seed"
   },
   {
-   "d": "2026-11-23",
-   "h": "",
-   "t": "Life in Dailyland, de Joan Verdú",
-   "c": "Arte",
-   "v": "Centre del Carme",
+   "d": "2026-11-21",
+   "h": "12:00",
+   "t": "Sex Museum + Los Bengala",
+   "c": "Música",
+   "v": "La Pèrgola de la Marina",
+   "p": "16,50 €",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "17:00",
+   "t": "Teatro sensorial con Enrique Vargas",
+   "c": "Teatro",
+   "v": "Centre Cultural Escorxador",
    "p": "Gratis",
    "u": "",
    "s": "seed"
   },
   {
-   "d": "2026-11-24",
+   "d": "2026-11-21",
+   "h": "18:00",
+   "t": "Goya – oder Der arge Weg der Erkenntnis",
+   "c": "Cine",
+   "v": "Edificio Rialto",
+   "p": "Gratis",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
    "h": "20:00",
-   "t": "29",
+   "t": "Christina Rosenvinge",
    "c": "Música",
    "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "20:30",
+   "t": "Los girasoles ciegos",
+   "c": "Cine",
+   "v": "Edificio Rialto",
+   "p": "Gratis",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "21:00",
+   "t": "Pölvora",
+   "c": "Música",
+   "v": "Loco Club",
+   "p": "Desde 15 €",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "",
+   "t": "Odisea (también el 22)",
+   "c": "Teatro",
+   "v": "Teatro Rialto",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
   },
   {
    "d": "2026-11-24",
@@ -58,8 +88,8 @@
    "c": "Música",
    "v": "Loco Club",
    "p": "Desde 25 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
+   "u": "",
+   "s": "seed"
   },
   {
    "d": "2026-11-25",
@@ -68,28 +98,8 @@
    "c": "Música",
    "v": "Loco Club",
    "p": "Desde 19,80 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2026-11-26",
-   "h": "19:45",
-   "t": "Ver más info.",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-11-26",
-   "h": "20:30",
-   "t": "Aplazado",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
+   "u": "",
+   "s": "seed"
   },
   {
    "d": "2026-11-26",
@@ -98,8 +108,8 @@
    "c": "Música",
    "v": "Loco Club",
    "p": "Desde 12,50 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
+   "u": "",
+   "s": "seed"
   },
   {
    "d": "2026-11-26",
@@ -118,18 +128,8 @@
    "c": "Música",
    "v": "Loco Club",
    "p": "Desde 12 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2026-11-27",
-   "h": "23:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
+   "u": "",
+   "s": "seed"
   },
   {
    "d": "2026-11-27",
@@ -143,16 +143,6 @@
   },
   {
    "d": "2026-11-28",
-   "h": "19:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-11-28",
    "h": "20:30",
    "t": "Nadie Patín",
    "c": "Música",
@@ -160,16 +150,6 @@
    "p": "Desde 12 €",
    "u": "",
    "s": "seed"
-  },
-  {
-   "d": "2026-11-28",
-   "h": "20:30",
-   "t": "Nadie Patín + Mr. Kennedy",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 15 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
   },
   {
    "d": "2026-11-28",
@@ -193,673 +173,579 @@
   },
   {
    "d": "2026-11-29",
-   "h": "18:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-11-29",
    "h": "20:00",
    "t": "Carlos Álvarez",
    "c": "Música",
    "v": "Loco Club",
    "p": "Desde 12,50 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
+   "u": "",
+   "s": "seed"
   },
   {
-   "d": "2026-11-30",
-   "h": "20:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
+   "d": "2026-11-21",
+   "h": "12:00",
+   "t": "Iron Boy",
+   "c": "Cartelera",
+   "v": "Cines Babel",
    "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "Doblada 12:00"
   },
   {
-   "d": "2026-12-03",
-   "h": "20:00",
-   "t": "Grossal + Los Snails",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 5 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2026-12-03",
-   "h": "20:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
+   "d": "2026-11-21",
+   "h": "12:00",
+   "t": "El director",
+   "c": "Cartelera",
+   "v": "Cines Babel",
    "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "Español 12:00 · 16:00 · 18:10 · 22:25"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "12:00",
+   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
+   "c": "Cartelera",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "V.O. 12:00 · 20:30 · 22:45"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:00",
+   "t": "Rose",
+   "c": "Cartelera",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "V.O. 16:00 · 18:15 · 19:00 · 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:00",
+   "t": "El mal padre",
+   "c": "Cartelera",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "Español 16:00 · 18:00"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "12:00",
+   "t": "Ruega por nosotras",
+   "c": "Cartelera",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "Español 12:00 · 16:00 · 20:05 · 20:15 · 22:00"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:00",
+   "t": "Wild Horse Nine",
+   "c": "Cartelera",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "V.O. 16:00 · 18:15 · 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "18:30",
+   "t": "Jaleos",
+   "c": "Cartelera",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "Español 18:30"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "12:00",
+   "t": "La Bola Negra",
+   "c": "Cartelera",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "Español 12:00 · 16:00 · 20:00"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "20:15",
+   "t": "Estación central de Brasil",
+   "c": "Cartelera",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "V.O. 20:15"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "20:20",
+   "t": "Dune",
+   "c": "Cartelera",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "V.O. 20:20"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "18:15",
+   "t": "La invitación",
+   "c": "Cartelera",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0119/",
+   "s": "babel",
+   "x": "V.O. 18:15 · 22:50"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:00",
+   "t": "El director",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Español 16:00 · 18:15 · 20:30 · 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:00",
+   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Doblada 16:00 · 18:15"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:00",
+   "t": "El mal padre",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Español 16:00 · 18:20 · 20:35 · 22:45"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:25",
+   "t": "Iron Boy",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "V.O. 16:25"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:35",
+   "t": "Los Juegos del Hambre: Amanecer en la cosecha",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Doblada 16:35 · 18:35 · 19:35 · V.O. 21:35 · 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:35",
+   "t": "Rose",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Doblada 16:35 · 18:35 · V.O. 20:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:45",
+   "t": "Citas: La película",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Español 16:45"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "22:35",
+   "t": "Hechos probados",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Español 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:00",
+   "t": "El gato con sombrero",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Doblada 16:00 · 18:15"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:00",
+   "t": "Ruega por nosotras",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Español 16:00 · 18:35 · 20:25 · 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:00",
+   "t": "Diversión navideña con Peppa: La experiencia en cines",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Doblada 16:00"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:25",
+   "t": "Arriba Tutto",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Español 16:25"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "16:35",
+   "t": "La Bola Negra",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Español 16:35 · 18:35 · 19:35 · Doblada 22:00"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "17:00",
+   "t": "Scrooge y los fantasmas de la Navidad",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Doblada 17:00 · 19:35 · V.O. 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "17:00",
+   "t": "Wildwood",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Doblada 17:00 · V.O. 19:45"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "17:30",
+   "t": "La violinista",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Doblada 17:30"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "18:15",
+   "t": "Wild Horse Nine",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Doblada 18:15 · V.O. 20:30 · 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "19:40",
+   "t": "La invitación",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "V.O. 19:40"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "20:35",
+   "t": "Sacamantecas",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Español 20:35 · 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "21:00",
+   "t": "NAZA",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "V.O. 21:00"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "22:35",
+   "t": "En el corazón de la bestia",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "Doblada 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "22:35",
+   "t": "Cómo robar un banco",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "V.O. 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "22:35",
+   "t": "Wicker",
+   "c": "Cartelera",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0187/",
+   "s": "lys",
+   "x": "V.O. 22:35"
+  },
+  {
+   "d": "2026-11-21",
+   "d2": "2026-11-28",
+   "h": "",
+   "t": "Exposición «Altres»",
+   "c": "Arte",
+   "v": "Sala Municipal de Exposiciones",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-10-07",
+   "d2": "2027-01-17",
+   "h": "",
+   "t": "Melanie Smith: «Solo una cosa era extraña, seguir pensando como antes»",
+   "c": "Museos",
+   "v": "IVAM",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-17",
+   "d2": "2027-02-07",
+   "h": "",
+   "t": "Jaume I, regnar el futur",
+   "c": "Museos",
+   "v": "MuVIM",
+   "p": "Gratis",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-01",
+   "d2": "2026-12-09",
+   "h": "",
+   "t": "Memphis Milano (1981-1986)",
+   "c": "Museos",
+   "v": "MuVIM",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-01",
+   "d2": "2026-12-12",
+   "h": "",
+   "t": "Todo lo sólido se desvanece en el aire",
+   "c": "Museos",
+   "v": "Centre del Carme (CCCC)",
+   "p": "Gratis",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-01",
+   "d2": "2027-01-16",
+   "h": "",
+   "t": "Life in Dailyland, de Joan Verdú",
+   "c": "Museos",
+   "v": "Centre del Carme (CCCC)",
+   "p": "Gratis",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-01",
+   "d2": "2027-01-09",
+   "h": "",
+   "t": "José Segrelles. El ilustrador fantástico",
+   "c": "Museos",
+   "v": "Centre del Carme (CCCC)",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-01",
+   "d2": "2026-12-05",
+   "h": "",
+   "t": "Un vacío en Nueva York",
+   "c": "Museos",
+   "v": "Centre del Carme (CCCC)",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-01",
+   "d2": "2026-11-28",
+   "h": "",
+   "t": "Pepa L. Poquet. Trazar-Ordenar-Construir",
+   "c": "Museos",
+   "v": "Centre del Carme (CCCC)",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-04",
+   "d2": "2027-02-14",
+   "h": "",
+   "t": "Magdalena. Ni santa ni pecadora",
+   "c": "Museos",
+   "v": "Museo de Bellas Artes de València",
+   "p": "Gratis",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-13",
+   "d2": "2027-11-30",
+   "h": "",
+   "t": "Jules Verne 200 (experiencia inmersiva)",
+   "c": "Museos",
+   "v": "Museu de les Ciències",
+   "p": "Consultar",
+   "u": "",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-21",
+   "h": "",
+   "t": "Clan Of Xymox + Psyche",
+   "c": "Música",
+   "v": "Sala Jerusalem",
+   "p": "Consultar",
+   "u": "https://www.laganzua.net/conciertos/salas-conciertos/sala-jerusalem",
+   "s": "seed"
+  },
+  {
+   "d": "2026-11-28",
+   "h": "",
+   "t": "INVADERS \"TRIP TO JAPAN\"",
+   "c": "Música",
+   "v": "Spook Club",
+   "p": "Consultar",
+   "u": "https://xceed.me/en/valencia/event/invaders-trip-to-japan-1/238242",
+   "s": "xceed"
   },
   {
    "d": "2026-12-04",
-   "h": "22:00",
-   "t": "Entradas",
+   "h": "",
+   "t": "42 ANIVERSARIO [80s 90s]: Wolfgang Flür (ex-kraftwerk) + Patrick Codenys (Front 242)",
    "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
+   "v": "Spook Club",
+   "p": "Consultar",
+   "u": "https://xceed.me/en/valencia/event/42-aniversario-80s-90s-wolfgang-flur-ex-kraftwerk-patrick-codenys-front-242/244341",
+   "s": "xceed"
   },
   {
    "d": "2026-12-05",
-   "h": "21:00",
-   "t": "Gazella + Sara Zozaya",
+   "h": "",
+   "t": "Sound Factory - 26º Aniversario",
    "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 20 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
+   "v": "Sound Factory",
+   "p": "Consultar",
+   "u": "https://xceed.me/en/valencia/event/sound-factory-26-aniversario/240811",
+   "s": "xceed"
   },
   {
-   "d": "2026-12-05",
-   "h": "22:00",
-   "t": "Sold out",
+   "d": "2026-12-07",
+   "h": "",
+   "t": "42 anniversary: Onlynumbers + invitados",
    "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-06",
-   "h": "19:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-08",
-   "h": "21:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-09",
-   "h": "20:30",
-   "t": "Nick Mitchell Maiato",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 20 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2026-12-10",
-   "h": "20:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-11",
-   "h": "21:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-11",
-   "h": "22:00",
-   "t": "Los Tensos",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 10 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
+   "v": "Spook Club",
+   "p": "Consultar",
+   "u": "https://xceed.me/en/valencia/event/42-anniversary-onlynumbers-invitados/241971",
+   "s": "xceed"
   },
   {
    "d": "2026-12-12",
-   "h": "22:00",
-   "t": "Mujer Fatal",
+   "h": "",
+   "t": "Richie Hawtin + invitados & Cartulis w/ Unai Trotti + Vass",
    "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 12 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2026-12-13",
-   "h": "18:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-16",
-   "h": "20:00",
-   "t": "Sanisidro",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 16,53 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2026-12-17",
-   "h": "20:00",
-   "t": "Mishima",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 20 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2026-12-18",
-   "h": "22:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-19",
-   "h": "22:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-20",
-   "h": "18:30",
-   "t": "Sold out",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-23",
-   "h": "20:30",
-   "t": "A very, very, very Badlands Chritsmas",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 12 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2026-12-26",
-   "h": "18:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-27",
-   "h": "12:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-12-28",
-   "h": "21:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-01-02",
-   "h": "20:00",
-   "t": "Tributo a The Ultimate Stone Roses",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 40 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-01-08",
-   "h": "21:00",
-   "t": "Sr. Chinarro",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 20,40 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-01-08",
-   "h": "22:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-01-09",
-   "h": "20:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-01-15",
-   "h": "21:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-01-15",
-   "h": "21:00",
-   "t": "Éxtasis",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 18 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-01-16",
-   "h": "18:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-01-17",
-   "h": "17:00",
-   "t": "The Jazz Room: Un Viaje al Corazón de Nueva Orleáns",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 20 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-01-19",
-   "h": "20:00",
-   "t": "The Pink Stones + Restos",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 15 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-01-21",
-   "h": "20:00",
-   "t": "Josh Rouse",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 25 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-01-21",
-   "h": "20:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-01-22",
-   "h": "21:00",
-   "t": "Boys Fron Mars",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 12 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-01-23",
-   "h": "23:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-01-28",
-   "h": "20:30",
-   "t": "Guille Galván",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 18 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-01-29",
-   "h": "21:00",
-   "t": "El Último Vecino",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 16 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-01-29",
-   "h": "23:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-01-30",
-   "h": "23:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-01-31",
-   "h": "12:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-02-04",
-   "h": "20:00",
-   "t": "Michael Foster",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 20 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-02-06",
-   "h": "23:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-02-07",
-   "h": "19:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-02-08",
-   "h": "20:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-02-10",
-   "h": "20:30",
-   "t": "Synchronicity: Tributo a The Police",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 22 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-02-11",
-   "h": "21:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-02-12",
-   "h": "20:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-02-12",
-   "h": "21:00",
-   "t": "Axolotes Mexicanos",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 16 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-02-13",
-   "h": "12:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-02-20",
-   "h": "19:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-02-20",
-   "h": "23:00",
-   "t": "VSO Weekenders 3.0 DJs: Baz Sharples, Greg Tormo y Aitor Alma",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 15 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-02-21",
-   "h": "18:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-02-25",
-   "h": "21:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-03-04",
-   "h": "21:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-03-06",
-   "h": "18:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-03-12",
-   "h": "22:30",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-03-20",
-   "h": "21:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-03-21",
-   "h": "19:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-04-05",
-   "h": "21:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-04-09",
-   "h": "20:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-04-16",
-   "h": "20:00",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2027-04-28",
-   "h": "20:30",
-   "t": "Ben Poole",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 10 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-05-02",
-   "h": "19:30",
-   "t": "Terrapin Flyer: Grateful Dead Tribute",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 20 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2027-05-16",
-   "h": "19:45",
-   "t": "Entradas",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
+   "v": "Spook Club",
+   "p": "Consultar",
+   "u": "https://xceed.me/en/valencia/event/richie-hawtin-invitados-cartulis-w-unai-trotti-vass/241972",
+   "s": "xceed"
   }
  ]
 }
