@@ -32,11 +32,14 @@ SOURCES = [
     {"id": "xceed", "kind": "xceed", "venue": "", "cat": "Música",
      "url": "https://xceed.me/en/valencia/events", "accept": "text/markdown, text/html;q=0.9",
      "urls": ["https://xceed.me/en", "https://xceed.me/en/valencia/events"]},
-    # Cartelera de cines (SensaCine). La página estática solo trae las sesiones del día en que se lee.
-    {"id": "babel", "kind": "sensacine", "venue": "Cines Babel", "cat": "Cartelera",
-     "url": "https://www.sensacine.com/cines/cine/E0119/"},
-    {"id": "lys", "kind": "sensacine", "venue": "Cines Lys", "cat": "Cartelera",
-     "url": "https://www.sensacine.com/cines/cine/E0187/"},
+    # Cartelera de cines: Babel publica varios días; Lys (ReservaEntradas) publica las sesiones de hoy.
+    {"id": "babel", "kind": "babel", "venue": "Cines Babel", "cat": "Cine",
+     "url": "https://cinesbabel.com/cartelera/"},
+    {"id": "lys", "kind": "reserva", "venue": "Cines Lys", "cat": "Cine",
+     "url": "https://www.reservaentradas.com/cine/valencia/cineslys"},
+    # ABC Park: su web propia es una aplicación que no se puede leer, así que se usa SensaCine (solo las sesiones de hoy).
+    {"id": "abcpark", "kind": "sensacine", "venue": "ABC Park", "cat": "Cine",
+     "url": "https://www.sensacine.com/cines/cine/E0040/"},
     {"id": "rialto", "kind": "ldjson", "venue": "Teatro Rialto", "cat": "Teatro",
      "url": "https://ivc.gva.es/es/ivc/programacion-ivc/teatro-rialto-de-valencia"},
 ]
@@ -143,8 +146,8 @@ def version_label(txt):
     t = norm(txt).replace("en version ", "").replace("en ", "").strip()
     return VERSIONS.get(t, txt.replace("En ", "").strip())
 
-def parse_sensacine(raw, src):
-    """Cartelera de un cine: una película = un evento por día, con sus sesiones en el campo x."""
+def parse_sensacine_text(raw, src):
+    """(Plan B) Cartelera de un cine: una película = un evento por día, con sus sesiones en el campo x."""
     L = lines_of(raw)
     rel = re.compile(r"^\d{1,2} de [a-záéíóú]+ de \d{4} \|")
     ses = re.compile(r"^(\d{1,2}) de ([a-záéíóú]+) de (\d{4}) - (.+)$", re.I)
@@ -205,6 +208,131 @@ def parse_xceed(raw, src):
         out.append(e)
     return out
 
+def parse_sensacine(raw, src):
+    """Cartelera de un cine en SensaCine. Cada película es un enlace /peliculas/pelicula-N/ y
+    sus sesiones van detrás, hasta el enlace de la siguiente película."""
+    link = re.compile(r'(?is)<a\b[^>]*href="[^"]*/peliculas/pelicula-(\d+)/?"[^>]*>(.*?)</a>')
+    marks = []
+    for m in link.finditer(raw):
+        t = " ".join(lines_of(m.group(2))).strip()
+        if len(t) < 2 or t.lower().startswith(("ver ", "tráiler", "trailer", "más", "mas ")):
+            continue
+        if marks and marks[-1][0] == m.group(1):
+            continue
+        marks.append((m.group(1), t, m.start(), m.end()))
+    vpat = re.compile(r"(\d{1,2}) de ([a-záéíóú]+) de (\d{4})\s*[-–]\s*(.+)$", re.I)
+    tpat = re.compile(r"^(\d{1,2}):(\d{2})\b")
+    films = {}
+    for i, (pid, title, a, b) in enumerate(marks):
+        end = marks[i + 1][2] if i + 1 < len(marks) else len(raw)
+        key, groups = (TODAY.isoformat(), ""), {}
+        for l in lines_of(raw[b:end]):
+            m = vpat.search(l)
+            if m and m.group(2).lower() in MONTHS and re.search(r"(?i)\bv\.?o|versi|\ben\b", m.group(4)):
+                try:
+                    key = (dt.date(int(m.group(3)), MONTHS[m.group(2).lower()], int(m.group(1))).isoformat(),
+                           version_label(m.group(4)))
+                except ValueError: pass
+                continue
+            if tpat.match(l):  # una línea puede traer varias horas seguidas
+                for hh, mm in re.findall(r"\b(\d{1,2}):(\d{2})\b", l):
+                    hhmm = "%02d:%s" % (int(hh), mm)
+                    groups.setdefault(key, [])
+                    if hhmm not in groups[key]: groups[key].append(hhmm)
+        if groups:
+            f = films.setdefault(title, {})
+            for k, v in groups.items():
+                f.setdefault(k, [])
+                f[k] += [x for x in v if x not in f[k]]
+    out = []
+    for title, groups in films.items():
+        by_day = {}
+        for (d, v), times in groups.items():
+            by_day.setdefault(d, []).append((v, sorted(times)))
+        for d, gs in by_day.items():
+            allt = sorted(t for _, ts in gs for t in ts)
+            e = ev(src, d, allt[0], title)
+            e["x"] = " · ".join(("%s %s" % (v, " · ".join(ts))).strip() for v, ts in sorted(gs))
+            out.append(e)
+    return out or parse_sensacine_text(raw, src)
+
+ES_MON = {"ene": 1, "feb": 2, "mar": 3, "abr": 4, "may": 5, "jun": 6, "jul": 7, "ago": 8,
+          "sep": 9, "set": 9, "oct": 10, "nov": 11, "dic": 12}
+SMALL = {"de", "del", "la", "el", "los", "las", "y", "en", "a", "con", "al", "un", "una", "por", "para"}
+
+def nice_title(t):
+    t = t.strip().rstrip(".").strip()
+    if not t.isupper(): return t
+    w = t.title().split(" ")
+    return " ".join(x if i == 0 or x.lower() not in SMALL else x.lower() for i, x in enumerate(w))
+
+def sessions_text(groups):
+    """groups: {versión: [horas]} -> 'Doblada 16:00 · 18:15 · V.O. 20:30'"""
+    return " · ".join(("%s %s" % (v, " · ".join(sorted(ts)))).strip() for v, ts in sorted(groups.items()))
+
+def parse_babel(raw, src):
+    """cinesbabel.com/cartelera: cada película es un <h2> seguido de una tabla (fila = día, celdas = horas)."""
+    out = []
+    for part in re.split(r"(?is)(?=<h2\b)", raw):
+        hm = re.match(r"(?is)<h2\b[^>]*>(.*?)</h2>", part)
+        if not hm: continue
+        title = nice_title(" ".join(lines_of(hm.group(1))))
+        body = part[hm.end():]
+        L = lines_of(body)
+        low = " ".join(L).lower()
+        if "doblad" in low: ver = "Doblada"
+        elif any(l.lower().startswith("subt") for l in L): ver = "V.O. subt."
+        else: ver = "Español"
+        um = re.search(r'(?is)<a[^>]+href="(https://[^"]+)"[^>]*>\s*Ver ficha', body)
+        for tr in re.finditer(r"(?is)<tr\b[^>]*>(.*?)</tr>", body):
+            cells = [" ".join(lines_of(c)).strip() for c in re.findall(r"(?is)<t[dh]\b[^>]*>(.*?)</t[dh]>", tr.group(1))]
+            if not cells: continue
+            m = re.match(r"(?i)^(?:lun|mar|mi[eé]|jue|vie|s[aá]b|dom)\.?\s+(\d{1,2})\s+([a-záéíóú]{3})", cells[0])
+            times = sorted(set("%02d:%s" % (int(h), mi) for h, mi in re.findall(r"\b(\d{1,2}):(\d{2})\b", " ".join(cells[1:]))))
+            if not m or not times or m.group(2).lower() not in ES_MON: continue
+            try: d = iso(ES_MON[m.group(2).lower()], int(m.group(1)))
+            except ValueError: continue
+            e = ev(src, d, times[0], title, "", um.group(1) if um else None)
+            e["x"] = sessions_text({ver: times})
+            out.append(e)
+    return out
+
+def parse_reserva(raw, src):
+    """reservaentradas.com: sesiones de HOY de un cine. Cada película es un enlace /sesiones/valencia/cine/slug/ID/."""
+    link = re.compile(r'(?is)<a\b[^>]*href="[^"]*/sesiones/valencia/[^/"]+/[^/"]+/\d+/?"[^>]*>(.*?)</a>')
+    marks = []
+    for m in link.finditer(raw):
+        t = " ".join(lines_of(m.group(1))).strip()
+        if len(t) < 2 or t.lower().startswith(("caratula", "carátula", "ver ", "http")): continue
+        if marks and marks[-1][1] == t: continue
+        marks.append((m.start(), t, m.end()))
+    tags = {"VOSE": "V.O. subt.", "VOS": "V.O. subt.", "SORIG": "V.O.", "VO": "V.O."}
+    films = {}
+    for i, (st, title, en) in enumerate(marks):
+        end = marks[i + 1][0] if i + 1 < len(marks) else len(raw)
+        pending, groups = None, {}
+        for l in lines_of(raw[en:end]):
+            if re.fullmatch(r"(?i)(VOSE|VOS|SORIG|VO)", l.strip()):
+                pending = tags[l.strip().upper()]; continue
+            for m in re.finditer(r"(?:\b(VOSE|VOS|SORIG|VO)\b\s*)?\b(\d{1,2}):(\d{2})\b", l):
+                v = tags[m.group(1).upper()] if m.group(1) else (pending or "")
+                pending = None
+                hhmm = "%02d:%s" % (int(m.group(2)), m.group(3))
+                groups.setdefault(v, [])
+                if hhmm not in groups[v]: groups[v].append(hhmm)
+        if groups:
+            f = films.setdefault(nice_title(title), {})
+            for v, ts in groups.items():
+                f.setdefault(v, [])
+                f[v] += [t for t in ts if t not in f[v]]
+    out = []
+    for title, groups in films.items():
+        allt = sorted(t for ts in groups.values() for t in ts)
+        e = ev(src, TODAY.isoformat(), allt[0], title)
+        e["x"] = sessions_text(groups)
+        out.append(e)
+    return out
+
 def walk(x):
     if isinstance(x, list):
         for i in x: yield from walk(i)
@@ -216,7 +344,7 @@ def walk(x):
 def guess_cat(name, typ, default):
     s = (name + " " + typ).lower()
     if any(k in s for k in ("film", "cine", "screening", "proyecc")): return "Cine"
-    if any(k in s for k in ("exposic", "visualarts", "galer")): return "Arte"
+    if any(k in s for k in ("exposic", "visualarts", "galer")): return "Exposiciones"
     if any(k in s for k in ("teatro", "theater", "danza", "obra")): return "Teatro"
     if any(k in s for k in ("music", "concierto", "dj", "live")): return "Música"
     return default
@@ -251,7 +379,7 @@ def parse_ldjson(raw, src):
             out.append(e)
     return out
 
-PARSERS = {"xceed": parse_xceed, "sensacine": parse_sensacine, "laganzua": parse_laganzua, "loco": parse_loco, "16t": parse_16t, "ldjson": parse_ldjson}
+PARSERS = {"babel": parse_babel, "reserva": parse_reserva, "xceed": parse_xceed, "sensacine": parse_sensacine, "laganzua": parse_laganzua, "loco": parse_loco, "16t": parse_16t, "ldjson": parse_ldjson}
 
 def main():
     try: prev = json.loads(OUT.read_text(encoding="utf-8")).get("events", [])
