@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T08:14+00:00",
+ "updated": "2026-11-22T08:44+00:00",
  "events": [
   {
    "d": "2026-10-07",
@@ -124,6 +124,358 @@
   },
   {
    "d": "2026-11-22",
+   "h": "11:20",
+   "t": "Los Juegos del Hambre: Amanecer en la cosecha",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "11:20 · 11:30 · 16:00 · 17:35 · 19:00 · 20:00 · 20:30 · 22:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "11:30",
+   "t": "La Bola Negra",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "11:30 · 16:00 · 19:00 · 22:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "11:45",
+   "t": "Godzilla Minus Zero",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "11:45"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "11:45",
+   "t": "Wildwood",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "11:45 · 20:00 · 20:05"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "11:50",
+   "t": "Dune",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "11:50 · 21:30"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "11:50",
+   "t": "Ruega por nosotras",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "11:50 · 16:30 · 19:15 · 22:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "12:00",
+   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/adolescencia-sexo-y-muerte-en-campamento-miasma/",
+   "s": "babel",
+   "x": "V.O. subt. 12:00 · 20:30"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "12:00",
+   "t": "Cine familiar – Iron boy",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/cine-familiar-iron-boy/",
+   "s": "babel",
+   "x": "Doblada 12:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "12:00",
+   "t": "El director",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/el-director/",
+   "s": "babel",
+   "x": "Español 12:00 · 16:00 · 18:10 · 22:25"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "12:00",
+   "t": "El director",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "12:00 · 16:00 · 20:00 · 22:10"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "12:00",
+   "t": "El gato con sombrero",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "12:00 · 17:50"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "12:00",
+   "t": "La bola negra",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/la-bola-negra/",
+   "s": "babel",
+   "x": "Español 12:00 · 16:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "12:00",
+   "t": "Ruega por nosotras",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/ruega-por-nosotras/",
+   "s": "babel",
+   "x": "Español 12:00 · 20:15 · 22:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "12:00",
+   "t": "Scrooge y los fantasmas de la Navidad",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "12:00 · 17:45 · 20:00 · 22:15"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "12:00",
+   "t": "Wild Horse Nine",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "12:00 · 18:10 · 20:00 · 22:00 · 22:15"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "12:10",
+   "t": "Willow y las guardianas de los cuatro elementos",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "12:10 · 16:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:00",
+   "t": "Bailar la muerte",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00 · 18:20"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:00",
+   "t": "Citas: La película",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00 · 18:30"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:00",
+   "t": "Cómo robar un banco",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:00",
+   "t": "El mal padre",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/el-mal-padre/",
+   "s": "babel",
+   "x": "Español 16:00 · 18:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:00",
+   "t": "Iron Boy",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00 · 20:15"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:00",
+   "t": "Ooh La La! ¿Quién lo hubiera pensado?",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:00",
+   "t": "Ratones al ataque: Operación Navidad",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:00",
+   "t": "Recuerdo tu nombre",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:00",
+   "t": "Rose",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/rose/",
+   "s": "babel",
+   "x": "V.O. subt. 16:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:00",
+   "t": "Wild Horse Nine",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/wild-horse-nine/",
+   "s": "babel",
+   "x": "V.O. subt. 16:00 · 18:15 · 22:35"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:30",
+   "t": "Noche y día, de Virginia Woolf",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:30"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "16:30",
+   "t": "Sacamantecas",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:30 · 19:55"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "17:10",
+   "t": "El cielo es para siempre",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "17:10 · 18:25"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "17:35",
+   "t": "Sentido y sensibilidad",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "17:35 · 17:45"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "17:45",
+   "t": "El mal padre",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "17:45 · 22:30"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "17:55",
+   "t": "Hechos probados",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "17:55 · 18:00"
+  },
+  {
+   "d": "2026-11-22",
    "h": "18:00",
    "t": "Próximos conciertos",
    "c": "Música",
@@ -131,6 +483,237 @@
    "p": "",
    "u": "https://www.16toneladas.com/",
    "s": "16t"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "18:15",
+   "t": "La invitación",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/la-invitacion/",
+   "s": "babel",
+   "x": "V.O. subt. 18:15 · 22:45"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "19:00",
+   "t": "Cine con coloquio (online) – Rose",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/cine-con-coloquio-online-rose/",
+   "s": "babel",
+   "x": "V.O. subt. 19:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "19:00",
+   "t": "Rose",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "19:00 · 20:05"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "20:15",
+   "t": "30 años 30 películas – Estación Central de Brasil",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/30-anos-30-peliculas-estacion-central-de-brasil/",
+   "s": "babel",
+   "x": "V.O. subt. 20:15"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "20:20",
+   "t": "Dune (1984)",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/dune-1984/",
+   "s": "babel",
+   "x": "V.O. subt. 20:20"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "20:25",
+   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "20:25 · 22:35"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "20:30",
+   "t": "La violinista",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "20:30"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "21:55",
+   "t": "La Odisea",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "21:55"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "22:00",
+   "t": "Con Hasan en Gaza",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:00 · 22:35"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "22:00",
+   "t": "Gummy",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "22:00",
+   "t": "Verity: La sombra de un engaño",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:00"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "22:35",
+   "t": "Victorian Psycho",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:35"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "22:50",
+   "t": "Naza",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/naza/",
+   "s": "babel",
+   "x": "V.O. subt. 22:50"
+  },
+  {
+   "d": "2026-11-22",
+   "h": "22:55",
+   "t": "Al oeste, en Zapata",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:55"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "El director",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/el-director/",
+   "s": "babel",
+   "x": "Español 16:00 · 18:10 · 22:25"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "El mal padre",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/el-mal-padre/",
+   "s": "babel",
+   "x": "Español 16:00 · 18:00"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "Rose",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/rose/",
+   "s": "babel",
+   "x": "V.O. subt. 16:00 · 18:15 · 22:35"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "Ruega por nosotras",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/ruega-por-nosotras/",
+   "s": "babel",
+   "x": "Español 16:00"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "Wild Horse Nine",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/wild-horse-nine/",
+   "s": "babel",
+   "x": "V.O. subt. 16:00 · 18:15 · 22:35"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "18:30",
+   "t": "Jaleos",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/jaleos/",
+   "s": "babel",
+   "x": "V.O. subt. 18:30"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "20:00",
+   "t": "La bola negra",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/la-bola-negra/",
+   "s": "babel",
+   "x": "Español 20:00"
   },
   {
    "d": "2026-11-23",
@@ -141,6 +724,127 @@
    "p": "",
    "u": "https://www.16toneladas.com/",
    "s": "16t"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "20:05",
+   "t": "Wilder Cinema – Incendies",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/wilder-cinema-incendies/",
+   "s": "babel",
+   "x": "V.O. subt. 20:05"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "20:15",
+   "t": "30 años 30 películas – Estación Central de Brasil",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/30-anos-30-peliculas-estacion-central-de-brasil/",
+   "s": "babel",
+   "x": "V.O. subt. 20:15"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "20:20",
+   "t": "Dune (1984)",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/dune-1984/",
+   "s": "babel",
+   "x": "V.O. subt. 20:20"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "20:30",
+   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/adolescencia-sexo-y-muerte-en-campamento-miasma/",
+   "s": "babel",
+   "x": "V.O. subt. 20:30 · 22:45"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "22:50",
+   "t": "Naza",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/naza/",
+   "s": "babel",
+   "x": "V.O. subt. 22:50"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "16:00",
+   "t": "El director",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/el-director/",
+   "s": "babel",
+   "x": "Español 16:00 · 18:10 · 22:25"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "16:00",
+   "t": "El mal padre",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/el-mal-padre/",
+   "s": "babel",
+   "x": "Español 16:00 · 18:00"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "16:00",
+   "t": "Rose",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/rose/",
+   "s": "babel",
+   "x": "V.O. subt. 16:00 · 18:15 · 22:30"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "16:00",
+   "t": "Ruega por nosotras",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/ruega-por-nosotras/",
+   "s": "babel",
+   "x": "Español 16:00 · 20:00"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "16:00",
+   "t": "Wild Horse Nine",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/wild-horse-nine/",
+   "s": "babel",
+   "x": "V.O. subt. 16:00 · 18:30 · 22:00"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "18:15",
+   "t": "Jaleos",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/jaleos/",
+   "s": "babel",
+   "x": "V.O. subt. 18:15"
   },
   {
    "d": "2026-11-24",
@@ -155,12 +859,166 @@
   {
    "d": "2026-11-24",
    "h": "20:00",
+   "t": "Preestreno – Todo el mundo quiere a Bill Evans",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/todo-el-mundo-quiere-a-bill-evans/",
+   "s": "babel",
+   "x": "V.O. subt. 20:00"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "20:00",
    "t": "Steve Wynn",
    "c": "Música",
    "v": "Loco Club",
    "p": "Desde 25 €",
    "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
    "s": "loco"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "20:15",
+   "t": "30 años 30 películas – Estación Central de Brasil",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/30-anos-30-peliculas-estacion-central-de-brasil/",
+   "s": "babel",
+   "x": "V.O. subt. 20:15"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "20:15",
+   "t": "La bola negra",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/la-bola-negra/",
+   "s": "babel",
+   "x": "Español 20:15"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "20:35",
+   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/adolescencia-sexo-y-muerte-en-campamento-miasma/",
+   "s": "babel",
+   "x": "V.O. subt. 20:35 · 22:45"
+  },
+  {
+   "d": "2026-11-24",
+   "h": "23:00",
+   "t": "Naza",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/naza/",
+   "s": "babel",
+   "x": "V.O. subt. 23:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "El director",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/el-director/",
+   "s": "babel",
+   "x": "Español 16:00 · 18:10 · 22:30"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "El mal padre",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/el-mal-padre/",
+   "s": "babel",
+   "x": "Español 16:00 · 17:45"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "Rose",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/rose/",
+   "s": "babel",
+   "x": "V.O. subt. 16:00 · 18:15"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "Ruega por nosotras",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/ruega-por-nosotras/",
+   "s": "babel",
+   "x": "Español 16:00 · 20:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "Wild Horse Nine",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/wild-horse-nine/",
+   "s": "babel",
+   "x": "V.O. subt. 16:00 · 18:15 · 22:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "18:30",
+   "t": "Jaleos",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/jaleos/",
+   "s": "babel",
+   "x": "V.O. subt. 18:30"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "20:00",
+   "t": "30 años 30 películas – Estación Central de Brasil",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/30-anos-30-peliculas-estacion-central-de-brasil/",
+   "s": "babel",
+   "x": "V.O. subt. 20:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "20:20",
+   "t": "Dune (1984)",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/dune-1984/",
+   "s": "babel",
+   "x": "V.O. subt. 20:20"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "20:30",
+   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/adolescencia-sexo-y-muerte-en-campamento-miasma/",
+   "s": "babel",
+   "x": "V.O. subt. 20:30 · 22:45"
   },
   {
    "d": "2026-11-25",
@@ -173,6 +1031,116 @@
    "s": "loco"
   },
   {
+   "d": "2026-11-25",
+   "h": "20:30",
+   "t": "Cine con coloquio (online) Preestreno – Fatherland",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/cine-con-coloquio-online-preestreno-fatherland/",
+   "s": "babel",
+   "x": "V.O. subt. 20:30"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:05",
+   "t": "La bola negra",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/la-bola-negra/",
+   "s": "babel",
+   "x": "Español 22:05"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:50",
+   "t": "Naza",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/naza/",
+   "s": "babel",
+   "x": "V.O. subt. 22:50"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "16:00",
+   "t": "El director",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/el-director/",
+   "s": "babel",
+   "x": "Español 16:00 · 18:10 · 22:25"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "16:00",
+   "t": "El mal padre",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/el-mal-padre/",
+   "s": "babel",
+   "x": "Español 16:00 · 18:00"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "16:00",
+   "t": "Rose",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/rose/",
+   "s": "babel",
+   "x": "V.O. subt. 16:00"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "16:00",
+   "t": "Ruega por nosotras",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/ruega-por-nosotras/",
+   "s": "babel",
+   "x": "Español 16:00 · 22:15"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "16:00",
+   "t": "Wild Horse Nine",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/wild-horse-nine/",
+   "s": "babel",
+   "x": "V.O. subt. 16:00 · 22:15"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "19:00",
+   "t": "Cine Club – You can see everything (Puedes verlo todo)",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/cine-club-you-can-see-everything-puedes-verlo-todo/",
+   "s": "babel",
+   "x": "V.O. subt. 19:00"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "19:00",
+   "t": "Preestreno – You Can See Everything (Puedes verlo todo)",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/preestreno-you-can-see-everything-puedes-verlo-todo/",
+   "s": "babel",
+   "x": "V.O. subt. 19:00"
+  },
+  {
    "d": "2026-11-26",
    "h": "19:45",
    "t": "Ver más info.",
@@ -181,6 +1149,28 @@
    "p": "",
    "u": "https://www.16toneladas.com/",
    "s": "16t"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "20:15",
+   "t": "30 años 30 películas – Estación Central de Brasil",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/30-anos-30-peliculas-estacion-central-de-brasil/",
+   "s": "babel",
+   "x": "V.O. subt. 20:15"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "20:20",
+   "t": "Naza",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/naza/",
+   "s": "babel",
+   "x": "V.O. subt. 20:20"
   },
   {
    "d": "2026-11-26",
@@ -201,6 +1191,28 @@
    "p": "Desde 12,50 €",
    "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
    "s": "loco"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "22:00",
+   "t": "Dune (1984)",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/dune-1984/",
+   "s": "babel",
+   "x": "V.O. subt. 22:00"
+  },
+  {
+   "d": "2026-11-26",
+   "h": "22:10",
+   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/adolescencia-sexo-y-muerte-en-campamento-miasma/",
+   "s": "babel",
+   "x": "V.O. subt. 22:10"
   },
   {
    "d": "2026-11-26",
@@ -241,6 +1253,17 @@
    "p": "Consultar",
    "u": "",
    "s": "seed"
+  },
+  {
+   "d": "2026-11-28",
+   "h": "18:30",
+   "t": "Lorca en Babel – La bola negra",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/lorca-en-babel-la-bola-negra/",
+   "s": "babel",
+   "x": "Español 18:30"
   },
   {
    "d": "2026-11-28",
@@ -321,6 +1344,17 @@
    "p": "Desde 12,50 €",
    "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
    "s": "loco"
+  },
+  {
+   "d": "2026-11-30",
+   "h": "20:00",
+   "t": "Wilder Cinema – Tokyo Godfathers",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/wilder-cinema-tokyo-godfathers/",
+   "s": "babel",
+   "x": "V.O. subt. 20:00"
   },
   {
    "d": "2026-11-30",
@@ -444,6 +1478,17 @@
   },
   {
    "d": "2026-12-10",
+   "h": "12:00",
+   "t": "Leer el Cine. Aprende a mirar (Reserva de plaza)",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/leer-el-cine-aprende-a-mirar-reserva-de-plaza/",
+   "s": "babel",
+   "x": "Español 12:00"
+  },
+  {
+   "d": "2026-12-10",
    "h": "20:30",
    "t": "Entradas",
    "c": "Música",
@@ -503,6 +1548,17 @@
    "s": "16t"
   },
   {
+   "d": "2026-12-15",
+   "h": "19:00",
+   "t": "Dune: Parte Tres – Preestrenos exclusivos",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/dune-parte-tres-preestrenos-exclusivos/",
+   "s": "babel",
+   "x": "V.O. subt. 19:00"
+  },
+  {
    "d": "2026-12-16",
    "h": "20:00",
    "t": "Sanisidro",
@@ -541,6 +1597,17 @@
    "p": "",
    "u": "https://www.16toneladas.com/",
    "s": "16t"
+  },
+  {
+   "d": "2026-12-20",
+   "h": "12:30",
+   "t": "Morfilm – Cuando Harry encontró a Sally",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/morfilm-cuando-harry-encontro-a-sally/",
+   "s": "babel",
+   "x": "V.O. subt. 12:30"
   },
   {
    "d": "2026-12-20",
