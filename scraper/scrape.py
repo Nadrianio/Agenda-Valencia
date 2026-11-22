@@ -28,6 +28,10 @@ SOURCES = [
      "urls": ["https://www.laganzua.net/conciertos/salas-conciertos/sala-jerusalem",
               "https://www.laganzua.net/conciertos/valencia"]
              + ["https://www.laganzua.net/conciertos/valencia-pagina-%d" % n for n in range(2, 9)]},
+    # XCEED: fiestas y clubes. Solo se guardan eventos de Valencia (la web puede cambiar de formato).
+    {"id": "xceed", "kind": "xceed", "venue": "", "cat": "Música",
+     "url": "https://xceed.me/en/valencia/events", "accept": "text/markdown, text/html;q=0.9",
+     "urls": ["https://xceed.me/en", "https://xceed.me/en/valencia/events"]},
     # Cartelera de cines (SensaCine). La página estática solo trae las sesiones del día en que se lee.
     {"id": "babel", "kind": "sensacine", "venue": "Cines Babel", "cat": "Cartelera",
      "url": "https://www.sensacine.com/cines/cine/E0119/"},
@@ -37,8 +41,10 @@ SOURCES = [
      "url": "https://ivc.gva.es/es/ivc/programacion-ivc/teatro-rialto-de-valencia"},
 ]
 
-def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "es"})
+def fetch(url, accept=None):
+    hdr = {"User-Agent": UA, "Accept-Language": "es"}
+    if accept: hdr["Accept"] = accept
+    req = urllib.request.Request(url, headers=hdr)
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read().decode("utf-8", "replace")
 
@@ -169,6 +175,36 @@ def parse_sensacine(raw, src):
             out.append(e)
     return out
 
+EN_MONTHS = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july",
+             "august", "september", "october", "november", "december"], 1)}
+
+def parse_xceed(raw, src):
+    """Eventos de Valencia en xceed.me. Entiende la lista con enlaces tipo
+    [Título](https://xceed.me/en/valencia/event/...) — November 28, 2026 at [Sala](...) y, como plan B, HTML."""
+    out = []
+    dpat = r"([A-Za-z]+) (\d{1,2}), (\d{4})"
+    cands = []
+    for m in re.finditer(r"\[([^\]]+)\]\((https://xceed\.me/[a-z]{2}/valencia/event/[^)\s]+)\)\s*[—-]\s*" + dpat + r"(?:\s+at\s+\[([^\]]+)\]\([^)]*\))?", raw):
+        cands.append((m.group(1), m.group(2), m.group(3), m.group(4), m.group(5), m.group(6)))
+    if not cands:  # plan B: HTML con enlaces a /valencia/event/
+        for m in re.finditer(r'(?is)<a[^>]+href="((?:https://xceed\.me)?/[a-z]{2}/valencia/event/[^"]+)"[^>]*>(.*?)</a>', raw):
+            L = lines_of(m.group(2))
+            di = next((i for i, l in enumerate(L) if re.search(dpat, l)), None)
+            if di is None or not L: continue
+            dm = re.search(dpat, L[di])
+            url = m.group(1) if m.group(1).startswith("http") else "https://xceed.me" + m.group(1)
+            venue = L[di + 1] if di + 1 < len(L) else ""
+            cands.append((L[0], url, dm.group(1), dm.group(2), dm.group(3), venue))
+    for title, url, mon, day, year, venue in cands:
+        mo = EN_MONTHS.get(mon.lower())
+        if not mo: continue
+        try: d = dt.date(int(year), mo, int(day)).isoformat()
+        except ValueError: continue
+        e = ev(src, d, "", title, "", url)
+        e["v"] = (venue or "Valencia").strip()
+        out.append(e)
+    return out
+
 def walk(x):
     if isinstance(x, list):
         for i in x: yield from walk(i)
@@ -215,7 +251,7 @@ def parse_ldjson(raw, src):
             out.append(e)
     return out
 
-PARSERS = {"sensacine": parse_sensacine, "laganzua": parse_laganzua, "loco": parse_loco, "16t": parse_16t, "ldjson": parse_ldjson}
+PARSERS = {"xceed": parse_xceed, "sensacine": parse_sensacine, "laganzua": parse_laganzua, "loco": parse_loco, "16t": parse_16t, "ldjson": parse_ldjson}
 
 def main():
     try: prev = json.loads(OUT.read_text(encoding="utf-8")).get("events", [])
@@ -226,7 +262,7 @@ def main():
         for u in src.get("urls", [src["url"]]):
             try:
                 src["_url"] = u
-                raw = fetch(u)
+                raw = fetch(u, src.get("accept"))
                 got = PARSERS[src["kind"]](raw, src)
                 found += got
                 if not got:  # diagnóstico: qué ha visto el script en la página
@@ -249,7 +285,7 @@ def main():
     seen, final = set(), []
     for e in sorted(events, key=lambda e: (e["d"], e.get("h") or "~", e["t"])):
         k = (e["d"], e["t"].lower(), e.get("v", ""))
-        if e["d"] >= TODAY.isoformat() and k not in seen:
+        if (e.get("d2") or e["d"]) >= TODAY.isoformat() and k not in seen:
             seen.add(k); final.append(e)
     if not final:
         print("Sin eventos: no se sobrescribe events.json", file=sys.stderr); sys.exit(1)
