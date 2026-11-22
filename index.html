@@ -3,12 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Underground València · Agenda independiente</title>
+<title>Salimos o k?</title>
 <style>
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
---bg:#eef4f3;--surface:#fff;--ink:#10222b;--muted:#5a6d74;--line:#d3e0de;--sea:#1b6f7a;--gold:#f2b705;--on-sea:#fff;--chip:#dfeceb}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0c1a20;--surface:#14262d;--ink:#e8f1f0;--muted:#92a9ae;--line:#24404a;--sea:#4fb5c1;--on-sea:#06191e;--chip:#1c343c}}
-:root[data-theme="dark"]{color-scheme:dark;--bg:#0c1a20;--surface:#14262d;--ink:#e8f1f0;--muted:#92a9ae;--line:#24404a;--sea:#4fb5c1;--on-sea:#06191e;--chip:#1c343c}
+--bg:#d181a6;--surface:#fff;--ink:#1d1018;--muted:#3a2230;--line:#e3c3d3;--sea:#1b6f7a;--gold:#f2b705;--on-sea:#fff;--chip:#f3dfe8;color-scheme:light}
 *,*:before,*:after{box-sizing:inherit}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 "Avenir Next","Segoe UI",system-ui,sans-serif}
@@ -53,8 +51,8 @@ button:focus-visible,summary:focus-visible{outline:3px solid var(--sea);outline-
 </head>
 <body>
 <div class="wrap">
-  <h1>Underground València</h1>
-  <p class="sub">Música, teatro, cine y arte fuera del circuito comercial.</p>
+  <h1>Salimos o k?</h1>
+  <p class="sub">Planes en València para los próximos 15 días: música, teatro, cine, museos y más.</p>
   <div class="tabs" role="tablist">
     <button role="tab" id="t-all" aria-selected="true">Agenda</button>
     <button role="tab" id="t-mine" aria-selected="false">Mis eventos (<span id="n">0</span>)</button>
@@ -66,7 +64,7 @@ button:focus-visible,summary:focus-visible{outline:3px solid var(--sea);outline-
   <p class="note" id="upd"></p>
 </div>
 <script>
-var CATS={"Música":"#d9482b","Teatro":"#8a4fd1","Cine":"#1b6f7a","Arte":"#c98f00","Cartelera":"#b5457a","Otros":"#2f9e5b"};
+var CATS={"Música":"#d9482b","Teatro":"#8a4fd1","Cine":"#1b6f7a","Arte":"#c98f00","Museos":"#8c5a2b","Cartelera":"#b5457a","Otros":"#2f9e5b"};
 var EV=[],cat="Todas",tab="all",saved=[],updated="",days=[],shown=3,ready=false;
 try{saved=JSON.parse(localStorage.getItem("uv-saved2")||"[]")}catch(e){saved=[]}
 function persist(){try{localStorage.setItem("uv-saved2",JSON.stringify(saved))}catch(e){}}
@@ -78,13 +76,14 @@ function today(){return iso(new Date())}
 function addDays(s,n){var d=new Date(s+"T12:00:00");d.setDate(d.getDate()+n);return iso(d)}
 function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
 function chips(){var h="";["Todas"].concat(Object.keys(CATS)).forEach(function(c){h+='<button class="chip" aria-pressed="'+(c===cat)+'" data-c="'+esc(c)+'">'+esc(c)+'</button>'});document.getElementById("chips").innerHTML=h}
-function isSaved(e){return e.c!=="Cartelera"&&saved.indexOf(key(e))>=0}
+function isSaved(e){return e.c!=="Cartelera"&&e.c!=="Museos"&&saved.indexOf(key(e))>=0}
 function visible(e){return (cat==="Todas"||e.c===cat)&&(tab==="all"||isSaved(e))}
+function onDay(e,d){return e.d<=d&&d<=(e.d2||e.d)}
+var SPAN=15;
 function buildDays(){
-  var t0=today(),evs=EV.filter(function(e){return e.d>=t0});
-  if(tab==="mine"){var s={};evs.forEach(function(e){if(isSaved(e))s[e.d]=1});return Object.keys(s).sort()}
-  var max=t0;evs.forEach(function(e){if(e.d>max)max=e.d});
-  var out=[],d=t0,n=0;while(d<=max&&n<150){out.push(d);d=addDays(d,1);n++}
+  var t0=today(),out=[];
+  for(var i=0;i<SPAN;i++)out.push(addDays(t0,i));
+  if(tab==="mine")return out.filter(function(d){return EV.some(function(e){return onDay(e,d)&&isSaved(e)})});
   return out;
 }
 function card(e){
@@ -93,16 +92,22 @@ function card(e){
   return '<div class="ev" style="--c:'+(CATS[e.c]||"#1b6f7a")+'"><div class="time">'+esc(e.h||"—")+'</div><div class="body"><p class="t">'+t+'</p><p class="m">'+esc(e.v)+'</p><span class="tag">'+esc(e.c)+' · '+esc(e.p||"Consultar")+'</span></div>'
    +'<button class="save" data-k="'+esc(k)+'" aria-pressed="'+on+'" aria-label="'+(on?"Quitar de mis eventos":"Guardar en mis eventos")+'">'+(on?"★":"☆")+'</button></div>';
 }
+function grp(label,count,items,color){
+  return '<details class="cin" style="--cart:'+color+'"><summary><span>'+label+'</span><span class="ct">'+count+'</span></summary><ul>'+items.join("")+'</ul></details>';
+}
+function hasta(d2){return new Date(d2+"T12:00:00").toLocaleDateString("es-ES",{day:"numeric",month:"short"})}
 function dayHTML(d){
-  var evs=EV.filter(function(e){return e.d===d&&visible(e)}).sort(function(a,b){return (a.h||"~").localeCompare(b.h||"~")});
+  var evs=EV.filter(function(e){return onDay(e,d)&&visible(e)}).sort(function(a,b){return (a.h||"~").localeCompare(b.h||"~")});
   var dt=new Date(d+"T12:00:00"),body="";
-  var reg=evs.filter(function(e){return e.c!=="Cartelera"}),car={};
+  var reg=evs.filter(function(e){return e.c!=="Cartelera"&&e.c!=="Museos"}),mus=evs.filter(function(e){return e.c==="Museos"}),car={};
   evs.filter(function(e){return e.c==="Cartelera"}).forEach(function(e){(car[e.v]=car[e.v]||[]).push(e)});
   reg.forEach(function(e){body+=card(e)});
+  if(mus.length)body+=grp("🏛 Museos y exposiciones",mus.length+(mus.length===1?" exposición":" exposiciones"),mus.map(function(e){
+    var t=esc(e.t);if(/^https:\/\//.test(e.u||""))t='<a href="'+esc(e.u)+'" target="_blank" rel="noopener">'+t+'</a>';
+    return '<li><b>'+t+'</b><span>'+esc(e.v)+(e.d2?' · hasta '+hasta(e.d2):'')+' · '+esc(e.p||"Consultar")+'</span></li>'}),CATS.Museos);
   Object.keys(car).sort().forEach(function(v){
     var f=car[v];
-    body+='<details class="cin" style="--cart:'+CATS.Cartelera+'"><summary><span>🎬 '+esc(v)+'</span><span class="ct">'+f.length+' películas</span></summary><ul>'
-      +f.map(function(e){return '<li><b>'+esc(e.t)+'</b><span>'+esc(e.x||e.h)+'</span></li>'}).join("")+'</ul></details>';
+    body+=grp("🎬 "+esc(v),f.length+" películas",f.map(function(e){return '<li><b>'+esc(e.t)+'</b><span>'+esc(e.x||e.h)+'</span></li>'}),CATS.Cartelera);
   });
   if(!body)body='<p class="none">Sin eventos este día.</p>';
   return '<section><h2 class="dh"><span>'+cap(dt.toLocaleDateString("es-ES",{weekday:"long"}))+'</span><span class="dd">'+dt.toLocaleDateString("es-ES",{day:"numeric",month:"short"})+'</span>'+(d===today()?'<span class="hoy">Hoy</span>':'')+'</h2>'+body+'</section>';
@@ -112,13 +117,13 @@ function render(keep){
   if(!keep)shown=3;
   days=buildDays();
   var t0=today();
-  document.getElementById("n").textContent=EV.filter(function(e){return e.d>=t0&&isSaved(e)}).length;
+  document.getElementById("n").textContent=EV.filter(function(e){return (e.d2||e.d)>=t0&&isSaved(e)}).length;
   document.getElementById("t-all").setAttribute("aria-selected",tab==="all");
   document.getElementById("t-mine").setAttribute("aria-selected",tab==="mine");
   var g=document.getElementById("grid");
   if(!days.length){g.innerHTML='<div class="empty">'+(tab==="mine"?"Aún no has guardado ningún evento. Toca ☆ en la agenda para seguirlo.":"No hay eventos próximos.")+'</div>'}
   else g.innerHTML=days.slice(0,shown).map(dayHTML).join("");
-  document.getElementById("upd").textContent="Agenda actualizada automáticamente cada día"+(updated?" · última vez: "+updated:"")+". La cartelera de los cines muestra las sesiones de hoy. Confirma horarios y precios con cada sala.";
+  document.getElementById("upd").textContent="Agenda actualizada automáticamente cada día"+(updated?" · última vez: "+updated:"")+". Se muestran 15 días, y avanzan cada día. La cartelera de los cines solo incluye las sesiones de hoy. Confirma horarios y precios con cada sala.";
   updateMore();
 }
 function more(){
