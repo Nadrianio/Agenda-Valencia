@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T08:44+00:00",
+ "updated": "2026-11-23T05:52+00:00",
  "events": [
   {
    "d": "2026-10-07",
@@ -123,7 +123,7 @@
    "s": "seed"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "11:20",
    "t": "Los Juegos del Hambre: Amanecer en la cosecha",
    "c": "Cine",
@@ -131,10 +131,10 @@
    "p": "",
    "u": "https://www.sensacine.com/cines/cine/E0040/",
    "s": "abcpark",
-   "x": "11:20 · 11:30 · 16:00 · 17:35 · 19:00 · 20:00 · 20:30 · 22:00"
+   "x": "11:20 · 11:30 · 16:00 · 17:35 · 19:00 · 19:45 · 20:00 · 20:30 · 22:00"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "11:30",
    "t": "La Bola Negra",
    "c": "Cine",
@@ -142,10 +142,10 @@
    "p": "",
    "u": "https://www.sensacine.com/cines/cine/E0040/",
    "s": "abcpark",
-   "x": "11:30 · 16:00 · 19:00 · 22:00"
+   "x": "11:30 · 16:00 · 19:00"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "11:45",
    "t": "Godzilla Minus Zero",
    "c": "Cine",
@@ -156,7 +156,7 @@
    "x": "11:45"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "11:45",
    "t": "Wildwood",
    "c": "Cine",
@@ -164,10 +164,10 @@
    "p": "",
    "u": "https://www.sensacine.com/cines/cine/E0040/",
    "s": "abcpark",
-   "x": "11:45 · 20:00 · 20:05"
+   "x": "11:45 · 20:05"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "11:50",
    "t": "Dune",
    "c": "Cine",
@@ -178,7 +178,7 @@
    "x": "11:50 · 21:30"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "11:50",
    "t": "Ruega por nosotras",
    "c": "Cine",
@@ -186,43 +186,10 @@
    "p": "",
    "u": "https://www.sensacine.com/cines/cine/E0040/",
    "s": "abcpark",
-   "x": "11:50 · 16:30 · 19:15 · 22:00"
+   "x": "11:50 · 16:25 · 16:30 · 19:00 · 19:15 · 21:35 · 22:00"
   },
   {
-   "d": "2026-11-22",
-   "h": "12:00",
-   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/adolescencia-sexo-y-muerte-en-campamento-miasma/",
-   "s": "babel",
-   "x": "V.O. subt. 12:00 · 20:30"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "12:00",
-   "t": "Cine familiar – Iron boy",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/cine-familiar-iron-boy/",
-   "s": "babel",
-   "x": "Doblada 12:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "12:00",
-   "t": "El director",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/el-director/",
-   "s": "babel",
-   "x": "Español 12:00 · 16:00 · 18:10 · 22:25"
-  },
-  {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "12:00",
    "t": "El director",
    "c": "Cine",
@@ -230,10 +197,10 @@
    "p": "",
    "u": "https://www.sensacine.com/cines/cine/E0040/",
    "s": "abcpark",
-   "x": "12:00 · 16:00 · 20:00 · 22:10"
+   "x": "12:00 · 16:00 · 18:00 · 20:00 · 22:10"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "12:00",
    "t": "El gato con sombrero",
    "c": "Cine",
@@ -244,29 +211,7 @@
    "x": "12:00 · 17:50"
   },
   {
-   "d": "2026-11-22",
-   "h": "12:00",
-   "t": "La bola negra",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/la-bola-negra/",
-   "s": "babel",
-   "x": "Español 12:00 · 16:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "12:00",
-   "t": "Ruega por nosotras",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/ruega-por-nosotras/",
-   "s": "babel",
-   "x": "Español 12:00 · 20:15 · 22:00"
-  },
-  {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "12:00",
    "t": "Scrooge y los fantasmas de la Navidad",
    "c": "Cine",
@@ -274,10 +219,10 @@
    "p": "",
    "u": "https://www.sensacine.com/cines/cine/E0040/",
    "s": "abcpark",
-   "x": "12:00 · 17:45 · 20:00 · 22:15"
+   "x": "12:00 · 17:45 · 17:50 · 20:00 · 22:00 · 22:15"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "12:00",
    "t": "Wild Horse Nine",
    "c": "Cine",
@@ -285,10 +230,10 @@
    "p": "",
    "u": "https://www.sensacine.com/cines/cine/E0040/",
    "s": "abcpark",
-   "x": "12:00 · 18:10 · 20:00 · 22:00 · 22:15"
+   "x": "12:00 · 16:30 · 17:30 · 18:10 · 20:00 · 22:10 · 22:15"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "12:10",
    "t": "Willow y las guardianas de los cuatro elementos",
    "c": "Cine",
@@ -299,7 +244,18 @@
    "x": "12:10 · 16:00"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "Adolescencia, Sexo y Muerte en Campamento Miasma",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:00 · 18:15"
+  },
+  {
+   "d": "2026-11-23",
    "h": "16:00",
    "t": "Bailar la muerte",
    "c": "Cine",
@@ -307,10 +263,21 @@
    "p": "",
    "u": "https://www.sensacine.com/cines/cine/E0040/",
    "s": "abcpark",
-   "x": "16:00 · 18:20"
+   "x": "16:00 · 18:35"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "Camionero",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
+  },
+  {
+   "d": "2026-11-23",
    "h": "16:00",
    "t": "Citas: La película",
    "c": "Cine",
@@ -321,322 +288,37 @@
    "x": "16:00 · 18:30"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "16:00",
-   "t": "Cómo robar un banco",
+   "t": "El Director",
    "c": "Cine",
-   "v": "ABC Park",
+   "v": "Cines Lys",
    "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:00 · 18:15 · 20:30"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "El Gato con Sombrero",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
    "x": "16:00"
   },
   {
-   "d": "2026-11-22",
+   "d": "2026-11-23",
    "h": "16:00",
-   "t": "El mal padre",
+   "t": "El Mal Padre",
    "c": "Cine",
-   "v": "Cines Babel",
+   "v": "Cines Lys",
    "p": "",
-   "u": "https://cinesbabel.com/el-mal-padre/",
-   "s": "babel",
-   "x": "Español 16:00 · 18:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "16:00",
-   "t": "Iron Boy",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:00 · 20:15"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "16:00",
-   "t": "Ooh La La! ¿Quién lo hubiera pensado?",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "16:00",
-   "t": "Ratones al ataque: Operación Navidad",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "16:00",
-   "t": "Recuerdo tu nombre",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "16:00",
-   "t": "Rose",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/rose/",
-   "s": "babel",
-   "x": "V.O. subt. 16:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "16:00",
-   "t": "Wild Horse Nine",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/wild-horse-nine/",
-   "s": "babel",
-   "x": "V.O. subt. 16:00 · 18:15 · 22:35"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "16:30",
-   "t": "Noche y día, de Virginia Woolf",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:30"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "16:30",
-   "t": "Sacamantecas",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:30 · 19:55"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "17:10",
-   "t": "El cielo es para siempre",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "17:10 · 18:25"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "17:35",
-   "t": "Sentido y sensibilidad",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "17:35 · 17:45"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "17:45",
-   "t": "El mal padre",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "17:45 · 22:30"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "17:55",
-   "t": "Hechos probados",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "17:55 · 18:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "18:00",
-   "t": "Próximos conciertos",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "18:15",
-   "t": "La invitación",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/la-invitacion/",
-   "s": "babel",
-   "x": "V.O. subt. 18:15 · 22:45"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "19:00",
-   "t": "Cine con coloquio (online) – Rose",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/cine-con-coloquio-online-rose/",
-   "s": "babel",
-   "x": "V.O. subt. 19:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "19:00",
-   "t": "Rose",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "19:00 · 20:05"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "20:15",
-   "t": "30 años 30 películas – Estación Central de Brasil",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/30-anos-30-peliculas-estacion-central-de-brasil/",
-   "s": "babel",
-   "x": "V.O. subt. 20:15"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "20:20",
-   "t": "Dune (1984)",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/dune-1984/",
-   "s": "babel",
-   "x": "V.O. subt. 20:20"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "20:25",
-   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "20:25 · 22:35"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "20:30",
-   "t": "La violinista",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "20:30"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "21:55",
-   "t": "La Odisea",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "21:55"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "22:00",
-   "t": "Con Hasan en Gaza",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "22:00 · 22:35"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "22:00",
-   "t": "Gummy",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "22:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "22:00",
-   "t": "Verity: La sombra de un engaño",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "22:00"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "22:35",
-   "t": "Victorian Psycho",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "22:35"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "22:50",
-   "t": "Naza",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/naza/",
-   "s": "babel",
-   "x": "V.O. subt. 22:50"
-  },
-  {
-   "d": "2026-11-22",
-   "h": "22:55",
-   "t": "Al oeste, en Zapata",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "22:55"
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:00 · 18:20 · 20:35"
   },
   {
    "d": "2026-11-23",
@@ -663,6 +345,50 @@
   {
    "d": "2026-11-23",
    "h": "16:00",
+   "t": "Iron Boy",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00 · 20:15"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "Ooh La La! ¿Quién lo hubiera pensado?",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "Ratones al ataque: Operación Navidad",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "Recuerdo tu nombre",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00 · 20:00"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
    "t": "Rose",
    "c": "Cine",
    "v": "Cines Babel",
@@ -670,6 +396,17 @@
    "u": "https://cinesbabel.com/rose/",
    "s": "babel",
    "x": "V.O. subt. 16:00 · 18:15 · 22:35"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
+   "t": "Ruega por Nosotras",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:00 · 18:35 · 20:25"
   },
   {
    "d": "2026-11-23",
@@ -685,6 +422,17 @@
   {
    "d": "2026-11-23",
    "h": "16:00",
+   "t": "Tiempos de ilusión",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:00",
    "t": "Wild Horse Nine",
    "c": "Cine",
    "v": "Cines Babel",
@@ -692,6 +440,182 @@
    "u": "https://cinesbabel.com/wild-horse-nine/",
    "s": "babel",
    "x": "V.O. subt. 16:00 · 18:15 · 22:35"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:10",
+   "t": "El cielo es para siempre",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:10 · 17:10"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:25",
+   "t": "Arriba Tutto",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:25"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:25",
+   "t": "Iron Boy",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "V.O. subt. 16:25"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:30",
+   "t": "Cine Club Lys, el Mal Padre",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:30 · 18:00 · 19:30"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:30",
+   "t": "Sacamantecas",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:30"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:35",
+   "t": "La Bola Negra",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:35 · 18:35 · 19:35"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:35",
+   "t": "Los Juegos del Hambre: Amanecer en la Cosecha",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:35 · 18:35"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:35",
+   "t": "Rose",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:35 · 18:35"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "16:45",
+   "t": "Citas: la Película",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:45"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "17:00",
+   "t": "Scrooge y los Fantasmas de la Navidad",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "17:00"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "17:35",
+   "t": "Sentido y sensibilidad",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "17:35"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "17:45",
+   "t": "El mal padre",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "17:45"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "17:50",
+   "t": "Noche y día, de Virginia Woolf",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "17:50"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "17:55",
+   "t": "Hechos probados",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "17:55 · 18:15"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "18:15",
+   "t": "Wild Horse Nine",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "18:15 · V.O. subt. 20:30"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "18:25",
+   "t": "Sacamantecas",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "18:25 · 20:35"
   },
   {
    "d": "2026-11-23",
@@ -703,6 +627,28 @@
    "u": "https://cinesbabel.com/jaleos/",
    "s": "babel",
    "x": "V.O. subt. 18:30"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "19:00",
+   "t": "Rose",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "19:00 · 20:20"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "19:30",
+   "t": "Millenium Actress, Ciclo Anime Saikuro",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "V.O. subt. 19:30"
   },
   {
    "d": "2026-11-23",
@@ -718,7 +664,7 @@
   {
    "d": "2026-11-23",
    "h": "20:00",
-   "t": "Sold out",
+   "t": "Próximos conciertos",
    "c": "Música",
    "v": "16 Toneladas",
    "p": "",
@@ -735,6 +681,17 @@
    "u": "https://cinesbabel.com/wilder-cinema-incendies/",
    "s": "babel",
    "x": "V.O. subt. 20:05"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "20:10",
+   "t": "La violinista",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "20:10"
   },
   {
    "d": "2026-11-23",
@@ -760,6 +717,17 @@
   },
   {
    "d": "2026-11-23",
+   "h": "20:25",
+   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "20:25 · 22:35"
+  },
+  {
+   "d": "2026-11-23",
    "h": "20:30",
    "t": "Adolescencia, sexo y muerte en Campamento Miasma",
    "c": "Cine",
@@ -771,6 +739,72 @@
   },
   {
    "d": "2026-11-23",
+   "h": "20:35",
+   "t": "Hechos Probados",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "20:35"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "20:45",
+   "t": "Sucia: ¿Por qué no hiciste nada?",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "20:45"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "22:00",
+   "t": "Gummy",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:00"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "22:00",
+   "t": "Verity: La sombra de un engaño",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:00"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "22:00",
+   "t": "Victorian Psycho",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:00"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "22:35",
+   "t": "Con Hasan en Gaza",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:35"
+  },
+  {
+   "d": "2026-11-23",
    "h": "22:50",
    "t": "Naza",
    "c": "Cine",
@@ -779,6 +813,17 @@
    "u": "https://cinesbabel.com/naza/",
    "s": "babel",
    "x": "V.O. subt. 22:50"
+  },
+  {
+   "d": "2026-11-23",
+   "h": "22:55",
+   "t": "Al oeste, en Zapata",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:55"
   },
   {
    "d": "2026-11-24",
@@ -849,7 +894,7 @@
   {
    "d": "2026-11-24",
    "h": "20:00",
-   "t": "29",
+   "t": "Entradas",
    "c": "Música",
    "v": "16 Toneladas",
    "p": "",
