@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T05:47+00:00",
+ "updated": "2026-11-25T05:47+00:00",
  "events": [
   {
    "d": "2026-10-07",
@@ -123,7 +123,18 @@
    "s": "seed"
   },
   {
-   "d": "2026-11-24",
+   "d": "2026-11-25",
+   "h": "11:30",
+   "t": "Cecilia: Una luz de mañana",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "11:30"
+  },
+  {
+   "d": "2026-11-25",
    "h": "16:00",
    "t": "Adolescencia, Sexo y Muerte en Campamento Miasma",
    "c": "Cine",
@@ -131,21 +142,10 @@
    "p": "",
    "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
    "s": "lys",
-   "x": "16:00"
+   "x": "16:00 · 18:15"
   },
   {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "t": "Chopin",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:00"
-  },
-  {
-   "d": "2026-11-24",
+   "d": "2026-11-25",
    "h": "16:00",
    "t": "El Director",
    "c": "Cine",
@@ -153,10 +153,10 @@
    "p": "",
    "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
    "s": "lys",
-   "x": "16:00 · 18:15 · 20:30"
+   "x": "16:00 · 18:15 · 20:30 · 22:35"
   },
   {
-   "d": "2026-11-24",
+   "d": "2026-11-25",
    "h": "16:00",
    "t": "El Gato con Sombrero",
    "c": "Cine",
@@ -164,10 +164,10 @@
    "p": "",
    "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
    "s": "lys",
-   "x": "16:00"
+   "x": "16:00 · 18:15"
   },
   {
-   "d": "2026-11-24",
+   "d": "2026-11-25",
    "h": "16:00",
    "t": "El Mal Padre",
    "c": "Cine",
@@ -175,610 +175,7 @@
    "p": "",
    "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
    "s": "lys",
-   "x": "16:00 · 18:20 · 20:35"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "t": "El director",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/el-director/",
-   "s": "babel",
-   "x": "Español 16:00 · 18:10 · 22:25"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "t": "El mal padre",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/el-mal-padre/",
-   "s": "babel",
-   "x": "Español 16:00 · 18:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "t": "La Bola Negra",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:00 · 19:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "t": "Rose",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/rose/",
-   "s": "babel",
-   "x": "V.O. subt. 16:00 · 18:15 · 22:30"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "t": "Ruega por Nosotras",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "16:00 · 18:35 · 20:25"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "t": "Ruega por nosotras",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/ruega-por-nosotras/",
-   "s": "babel",
-   "x": "Español 16:00 · 20:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "t": "Ruega por nosotras",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:00 · 18:35 · 21:15"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "t": "Washington. El origen de un líder",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "t": "Wild Horse Nine",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/wild-horse-nine/",
-   "s": "babel",
-   "x": "V.O. subt. 16:00 · 18:30 · 22:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:10",
-   "t": "Citas: La película",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:10"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:15",
-   "t": "En el corazón de la bestia",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:15"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:20",
-   "t": "El cielo es para siempre",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:20"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:25",
-   "t": "Arriba Tutto",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "16:25 · 17:30"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:25",
-   "t": "Bailar la muerte",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:25"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:25",
-   "t": "Iron Boy",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "V.O. subt. 16:25"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:30",
-   "t": "Wild Horse Nine",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "16:30 · 17:30 · 18:20 · 19:30 · 22:25"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:35",
-   "t": "La Bola Negra",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "16:35 · 18:35 · 19:35"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:35",
-   "t": "Los Juegos del Hambre: Amanecer en la Cosecha",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "16:35 · 18:35 · 19:35"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:35",
-   "t": "Rose",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "16:35 · 18:35"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:45",
-   "t": "Citas: la Película",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "16:45"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "17:00",
-   "t": "Arriba Tutto",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "17:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "17:00",
-   "t": "Scrooge y los Fantasmas de la Navidad",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "17:00 · 19:35"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "17:00",
-   "t": "Wildwood el Bosque Salvaje",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "17:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "17:55",
-   "t": "Noche y día, de Virginia Woolf",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "17:55"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "18:00",
-   "t": "El mal padre",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "18:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "18:00",
-   "t": "Tiempos de ilusión",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "18:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "18:10",
-   "t": "Hechos probados",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "18:10"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "18:15",
-   "t": "Jaleos",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/jaleos/",
-   "s": "babel",
-   "x": "V.O. subt. 18:15"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "18:15",
-   "t": "Ooh La La! ¿Quién lo hubiera pensado?",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "18:15"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "18:15",
-   "t": "Wild Horse Nine",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "18:15 · V.O. subt. 20:30"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "18:20",
-   "t": "El director",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "18:20 · 22:30"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "18:25",
-   "t": "Sacamantecas",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "18:25 · 20:35"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "19:00",
-   "t": "Los Juegos del Hambre: Amanecer en la cosecha",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "19:00 · 20:15 · 22:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "19:30",
-   "t": "Cita a Ciegas con el Cine",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "V.O. subt. 19:30"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "19:30",
-   "t": "Proyecto Viridiana, Hermanas",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "V.O. subt. 19:30"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:00",
-   "t": "Preestreno – Todo el mundo quiere a Bill Evans",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/todo-el-mundo-quiere-a-bill-evans/",
-   "s": "babel",
-   "x": "V.O. subt. 20:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:00",
-   "t": "Próximos conciertos",
-   "c": "Música",
-   "v": "16 Toneladas",
-   "p": "",
-   "u": "https://www.16toneladas.com/",
-   "s": "16t"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:00",
-   "t": "Steve Wynn",
-   "c": "Música",
-   "v": "Loco Club",
-   "p": "Desde 25 €",
-   "u": "https://www.visitvalencia.com/agenda-valencia/conciertos-en-loco-club-la-sala-mas-eclectica-de-valencia",
-   "s": "loco"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:00",
-   "t": "¿Teléfono rojo? Volamos hacia Moscú",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "20:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:05",
-   "t": "Los rivales de Amziah King",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "20:05"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:15",
-   "t": "30 años 30 películas – Estación Central de Brasil",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/30-anos-30-peliculas-estacion-central-de-brasil/",
-   "s": "babel",
-   "x": "V.O. subt. 20:15"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:15",
-   "t": "Iron Boy",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "20:15"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:15",
-   "t": "La bola negra",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/la-bola-negra/",
-   "s": "babel",
-   "x": "Español 20:15"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:15",
-   "t": "La invitación",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "20:15"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:25",
-   "t": "Scrooge y los fantasmas de la Navidad",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "20:25 · 22:40"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:35",
-   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/adolescencia-sexo-y-muerte-en-campamento-miasma/",
-   "s": "babel",
-   "x": "V.O. subt. 20:35 · 22:45"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:35",
-   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "20:35 · 22:45"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:35",
-   "t": "Hechos Probados",
-   "c": "Cine",
-   "v": "Cines Lys",
-   "p": "",
-   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
-   "s": "lys",
-   "x": "20:35"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "20:35",
-   "t": "Rose",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "20:35"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "22:00",
-   "t": "Diarios de Ozu",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "22:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "22:00",
-   "t": "Recuerdo tu nombre",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "22:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "22:00",
-   "t": "Sucia: ¿Por qué no hiciste nada?",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "22:00"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "22:20",
-   "t": "Con Hasan en Gaza",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "22:20"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "22:50",
-   "t": "Al oeste, en Zapata",
-   "c": "Cine",
-   "v": "ABC Park",
-   "p": "",
-   "u": "https://www.sensacine.com/cines/cine/E0040/",
-   "s": "abcpark",
-   "x": "22:50"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "23:00",
-   "t": "Naza",
-   "c": "Cine",
-   "v": "Cines Babel",
-   "p": "",
-   "u": "https://cinesbabel.com/naza/",
-   "s": "babel",
-   "x": "V.O. subt. 23:00"
+   "x": "16:00 · 18:20 · 20:35 · 22:45"
   },
   {
    "d": "2026-11-25",
@@ -794,6 +191,28 @@
   {
    "d": "2026-11-25",
    "h": "16:00",
+   "t": "El director",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00 · 17:50 · 22:40"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "El gato con sombrero",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
    "t": "El mal padre",
    "c": "Cine",
    "v": "Cines Babel",
@@ -801,6 +220,50 @@
    "u": "https://cinesbabel.com/el-mal-padre/",
    "s": "babel",
    "x": "Español 16:00 · 17:45"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "La Bola Negra",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00 · 19:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "Los Juegos del Hambre: Amanecer en la cosecha",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00 · 17:35 · 19:00 · 20:30 · 22:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "Ooh La La! ¿Quién lo hubiera pensado?",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "Ratones al ataque: Operación Navidad",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
   },
   {
    "d": "2026-11-25",
@@ -816,6 +279,17 @@
   {
    "d": "2026-11-25",
    "h": "16:00",
+   "t": "Ruega por Nosotras",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:00 · 18:35 · 20:25 · 22:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
    "t": "Ruega por nosotras",
    "c": "Cine",
    "v": "Cines Babel",
@@ -823,6 +297,17 @@
    "u": "https://cinesbabel.com/ruega-por-nosotras/",
    "s": "babel",
    "x": "Español 16:00 · 20:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:00",
+   "t": "Tiempos de ilusión",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:00"
   },
   {
    "d": "2026-11-25",
@@ -837,6 +322,226 @@
   },
   {
    "d": "2026-11-25",
+   "h": "16:10",
+   "t": "El cielo es para siempre",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:10 · 20:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:10",
+   "t": "Noche y día, de Virginia Woolf",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:10"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:25",
+   "t": "Arriba Tutto",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:25"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:25",
+   "t": "Iron Boy",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "V.O. subt. 16:25"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:25",
+   "t": "Ruega por nosotras",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:25 · 19:00 · 21:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:30",
+   "t": "Sucia: ¿Por qué no hiciste nada?",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "16:30"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:35",
+   "t": "La Bola Negra",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:35 · 18:35 · 19:35 · V.O. 22:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:35",
+   "t": "Los Juegos del Hambre: Amanecer en la Cosecha",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:35 · 18:35 · 19:35 · V.O. subt. 21:35 · 22:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:35",
+   "t": "Rose",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:35 · 18:35 · V.O. subt. 20:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "16:45",
+   "t": "Citas: la Película",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "16:45"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "17:00",
+   "t": "Scrooge y los Fantasmas de la Navidad",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "17:00 · V.O. subt. 22:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "17:00",
+   "t": "Wildwood el Bosque Salvaje",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "17:00 · V.O. subt. 19:45"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "17:30",
+   "t": "La Violinista",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "17:30"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "17:30",
+   "t": "Wild Horse Nine",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "17:30 · 18:10"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "17:45",
+   "t": "El mal padre",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "17:45 · 22:10"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "18:05",
+   "t": "Citas: La película",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "18:05"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "18:15",
+   "t": "Hechos probados",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "18:15"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "18:15",
+   "t": "Recuerdo tu nombre",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "18:15"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "18:15",
+   "t": "Wild Horse Nine",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "18:15 · V.O. subt. 20:30 · 22:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "18:20",
+   "t": "Bailar la muerte",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "18:20"
+  },
+  {
+   "d": "2026-11-25",
    "h": "18:30",
    "t": "Jaleos",
    "c": "Cine",
@@ -845,6 +550,39 @@
    "u": "https://cinesbabel.com/jaleos/",
    "s": "babel",
    "x": "V.O. subt. 18:30"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "19:30",
+   "t": "La Ciudad de las Estrellas, la la Land",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "V.O. subt. 19:30"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "19:40",
+   "t": "La Invitación",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "V.O. subt. 19:40"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "19:50",
+   "t": "Wildwood",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "19:50"
   },
   {
    "d": "2026-11-25",
@@ -859,6 +597,28 @@
   },
   {
    "d": "2026-11-25",
+   "h": "20:00",
+   "t": "Adolescencia, sexo y muerte en Campamento Miasma",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "20:00 · 22:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "20:00",
+   "t": "Iron Boy",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "20:00"
+  },
+  {
+   "d": "2026-11-25",
    "h": "20:20",
    "t": "Dune (1984)",
    "c": "Cine",
@@ -867,6 +627,17 @@
    "u": "https://cinesbabel.com/dune-1984/",
    "s": "babel",
    "x": "V.O. subt. 20:20"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "20:20",
+   "t": "Rose",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "20:20"
   },
   {
    "d": "2026-11-25",
@@ -902,6 +673,72 @@
   },
   {
    "d": "2026-11-25",
+   "h": "20:30",
+   "t": "Fatherland",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "20:30"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "20:35",
+   "t": "Sacamantecas",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "20:35 · 22:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "21:00",
+   "t": "Naza",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "V.O. subt. 21:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:00",
+   "t": "Diarios de Ozu",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:00",
+   "t": "Scrooge y los fantasmas de la Navidad",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:00"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:00",
+   "t": "Victorian Psycho",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:00"
+  },
+  {
+   "d": "2026-11-25",
    "h": "22:05",
    "t": "La bola negra",
    "c": "Cine",
@@ -910,6 +747,83 @@
    "u": "https://cinesbabel.com/la-bola-negra/",
    "s": "babel",
    "x": "Español 22:05"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:10",
+   "t": "Al oeste, en Zapata",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:10"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:20",
+   "t": "Con Hasan en Gaza",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:20"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:30",
+   "t": "Cómo robar un banco",
+   "c": "Cine",
+   "v": "ABC Park",
+   "p": "",
+   "u": "https://www.sensacine.com/cines/cine/E0040/",
+   "s": "abcpark",
+   "x": "22:30"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:35",
+   "t": "Cómo Robar un Banco",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "V.O. subt. 22:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:35",
+   "t": "En el Corazón de la Bestia",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "22:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:35",
+   "t": "Hechos Probados",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "22:35"
+  },
+  {
+   "d": "2026-11-25",
+   "h": "22:35",
+   "t": "Wicker",
+   "c": "Cine",
+   "v": "Cines Lys",
+   "p": "",
+   "u": "https://www.reservaentradas.com/cine/valencia/cineslys",
+   "s": "lys",
+   "x": "V.O. subt. 22:35"
   },
   {
    "d": "2026-11-25",
@@ -1002,7 +916,7 @@
   {
    "d": "2026-11-26",
    "h": "19:45",
-   "t": "29",
+   "t": "Ver más info.",
    "c": "Música",
    "v": "16 Toneladas",
    "p": "",
@@ -1034,7 +948,7 @@
   {
    "d": "2026-11-26",
    "h": "20:30",
-   "t": "Aplazado",
+   "t": "29",
    "c": "Música",
    "v": "16 Toneladas",
    "p": "",
@@ -1257,6 +1171,17 @@
   },
   {
    "d": "2026-12-04",
+   "h": "20:00",
+   "t": "Otra vez, por primera vez – Parásitos",
+   "c": "Cine",
+   "v": "Cines Babel",
+   "p": "",
+   "u": "https://cinesbabel.com/otra-vez-por-primera-vez-parasitos/",
+   "s": "babel",
+   "x": "Español 20:00"
+  },
+  {
+   "d": "2026-12-04",
    "h": "22:00",
    "t": "Entradas",
    "c": "Música",
@@ -1458,9 +1383,19 @@
    "s": "loco"
   },
   {
+   "d": "2026-12-17",
+   "h": "21:00",
+   "t": "Ver más info.",
+   "c": "Música",
+   "v": "16 Toneladas",
+   "p": "",
+   "u": "https://www.16toneladas.com/",
+   "s": "16t"
+  },
+  {
    "d": "2026-12-18",
    "h": "22:30",
-   "t": "Ver más info.",
+   "t": "Entradas",
    "c": "Música",
    "v": "16 Toneladas",
    "p": "",
@@ -1543,6 +1478,16 @@
    "d": "2026-12-26",
    "h": "18:00",
    "t": "Ver más info.",
+   "c": "Música",
+   "v": "16 Toneladas",
+   "p": "",
+   "u": "https://www.16toneladas.com/",
+   "s": "16t"
+  },
+  {
+   "d": "2026-12-26",
+   "h": "23:00",
+   "t": "Entradas",
    "c": "Música",
    "v": "16 Toneladas",
    "p": "",
